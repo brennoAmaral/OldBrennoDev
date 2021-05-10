@@ -1,27 +1,41 @@
-import React from 'react'
-import { AppBar, Toolbar, Button, IconButton, Typography } from '@material-ui/core'
-import { Menu as MenuIcon } from '@material-ui/icons'
-import '../css/Navbar.css'
-import Sidebar from './Sidebar.js'
-
-
+import React from 'react';
+import {
+  AppBar,
+  Toolbar,
+  IconButton,
+  Typography,
+  Box} from '@material-ui/core';
+import { Menu as MenuIcon } from '@material-ui/icons';
+import '../css/Navbar.css';
+import { green } from '@material-ui/core/colors';
+import PropTypes from 'prop-types';
 
 export default function NavBar(props) {
+  const { onOpen } = props;
 
-    const { onOpen } = props;
-    
 
-    return (
+  return (
 
-        <AppBar position="static" className="bgNavColor">
-            <Toolbar >
-                <IconButton edge="start" color="inherit" onClick={() => { onOpen(true) }}>
-                    <MenuIcon />
-                </IconButton>
-                <Typography variant="h6" >
-                    Brenno(Dev);
-                </Typography>
-            </Toolbar>
-        </AppBar>
-    )
+    <AppBar position="static" className="bgNavColor" bgColor={ green } >
+      <Toolbar style={{ justifyContent: 'space-between' }} className="bgGreen">
+        <Box paddingRight={5}></Box>
+        <Typography
+          variant="h6"
+          anchorOrigin={{ horizontal: 'center' }}
+          className="fontPrimaryTopic colorGrayPrimary ">
+          Brenno(Dev);
+        </Typography>
+        <IconButton edge="end" color="inherit" onClick={() => {
+          onOpen(true);
+        }} className="colorGrayPrimary colorGrayPrimary" >
+          <MenuIcon />
+        </IconButton>
+      </Toolbar>
+    </AppBar>
+  );
 }
+
+
+NavBar.propTypes = {
+  onOpen: PropTypes.func.isRequired,
+};
