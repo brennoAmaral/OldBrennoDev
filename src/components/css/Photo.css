@@ -1,3 +1,15 @@
-.topAvatar{
-  top:-230px;
+.backgroundAvatar{
+  background: rgb(44,44,44);
+  background: linear-gradient(180deg, rgba(44,44,44,1) 50%, rgba(98,224,147,1) 50%);
+}
+.MuiAvatar-colorDefault {
+  border-top: var(--color-green);
+  border-left: var(--color-green);
+  border-bottom: var(--color-primary-gray);
+  border-right: var(--color-primary-gray);
+  border-style: solid;
+  transform: rotate(45deg);
+}
+.MuiAvatar-fallback {
+  transform: rotate(-45deg);
 }

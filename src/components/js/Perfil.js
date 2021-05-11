@@ -9,12 +9,12 @@ import Photo from './Photo.js';
 export default function Perfil() {
   return (
     <Box
-      position="absolute"
       width="100%"
       className="textAlignAvatar">
       <Cape />
-      <BasicInfo />
       <Photo />
+      <BasicInfo />
+
     </Box>
   );
 }

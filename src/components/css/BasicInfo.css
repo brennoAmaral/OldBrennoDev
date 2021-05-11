@@ -1,18 +1,21 @@
-
-@media (max-width: 768px) { 
-  .topBasicInfo{
-    padding-top: 90px;
-  }
+.paddingTopDistance{
+  padding-top: 10px;
+}
+@media (max-width: 768px) {
   .fontName{
     font-size: 16pt !important;
     font-weight: bold !important;
     font-family: 'roboto-mono', monospace !important;
+    color: var(--color-primary-gray)!important;
   }
   .fontOcupation{
     font-size: 11pt !important;
     font-weight: bold !important;
     font-family: 'roboto-mono', monospace !important;
+    color: var(--color-primary-gray)!important;
   }
+  
+
   
 }
 

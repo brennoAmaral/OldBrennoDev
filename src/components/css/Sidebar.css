@@ -1,10 +1,22 @@
+.MuiDrawer-paperAnchorRight {
+  background: var(--color-sidebar-gray)!important;
+}
+.MuiTypography-body1 {
+  color: var(--color-green);
+  
+
+}
+.MuiListItemText-primary{
+  font-size: var(--fontsize-mobile)!important;
+  font-family: var(--font-secundary)!important;
+  font-weight: 500!important;
+}
+.MuiListItemIcon-root {
+  color:var(--color-green)!important;
+
+}
 @media (max-width: 768px) { 
-   div.sideBar{
-    position: fixed;
-    height: 100%;
-    background: var(--color-sidebar-gray)!important;
-   }
-    
+  
 }
 @media (min-width: 769px) { 
     

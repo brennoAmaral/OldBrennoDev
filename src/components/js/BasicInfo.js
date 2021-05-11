@@ -10,12 +10,10 @@ export default function BasicInfo() {
 
     <Box
       height="60px"
-
       className="bgGreen
       radiusNone
       bgGreen
-      topBasicInfo"
-
+      paddingTopDistance"
     >
 
       <Typography className="

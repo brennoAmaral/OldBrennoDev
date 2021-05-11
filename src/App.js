@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/js/Navbar.js';
 import Sidebar from './components/js/Sidebar.js';
 import Perfil from './components/js/Perfil';
+import AboutMe from './components/js/AboutMe';
 
 
 export default function App() {
@@ -30,7 +31,8 @@ export default function App() {
       </Box>
    */}
 
-      <Perfil />
+      <Perfil/>
+      <AboutMe/>
 
     </>
   );

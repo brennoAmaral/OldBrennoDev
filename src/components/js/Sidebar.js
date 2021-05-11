@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Sidebar.css';
 import {
   Drawer,
   List,
@@ -14,6 +13,7 @@ import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import PermPhoneMsgIcon from '@material-ui/icons/PermPhoneMsg';
 import TimelineIcon from '@material-ui/icons/Timeline';
 import PropTypes from 'prop-types';
+import '../css/Sidebar.css';
 
 export default function SideBar(props) {
   const { onClose, open } = props;
@@ -31,7 +31,8 @@ export default function SideBar(props) {
             <ListItemIcon>
               <PersonIcon />
             </ListItemIcon>
-            <ListItemText primary="About me" />
+            <ListItemText primary="About me"
+              className="listItem" />
           </ListItem>
 
           <ListItem button>

@@ -57,6 +57,7 @@
 }
 
 
+
 .radiusNone{
     border-radius: 0 !important;
 }
@@ -76,6 +77,12 @@
     .fontPrimary{
         font-family: var(--font-secundary) !important;
         font-size: var(--fontsize-mobile) !important;
+    }
+    .fontText{
+      font-family: var(--font-secundary);
+      font-size: 13pt;
+      text-align: justify;
+      font-weight: 600;
     }
     .avatarWH{
         width: var(--size-avatar)!important ;
