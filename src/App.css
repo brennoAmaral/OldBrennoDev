@@ -10,7 +10,8 @@
     --fontsize-mobile: 15pt;
     --fontsize-desktop-topic: 25pt;
     --fontsize-desktop: 20pt;
-    --size-avatar:160px
+    --size-avatar:200px;
+    --swiper-theme-color: #62E093 !important;
 }
 
 *{

@@ -13,3 +13,7 @@
 .MuiAvatar-fallback {
   transform: rotate(-45deg);
 }
+.alignAvatar{
+  margin-left: auto;
+  margin-right: auto;
+}

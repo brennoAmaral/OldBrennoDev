@@ -1,0 +1,92 @@
+.distance{
+  padding:10px 0 10px 0;
+}
+.swiper-container {
+  width: 300px;
+  height: 370px;
+}
+
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 5%;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: block;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border: solid;
+  border-color: black;
+}
+.swiper-slide {
+
+  align-items: unset;
+  background-color: var(--color-sidebar-gray);
+}
+img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) { 
+  .reactWH{
+    width: 230px !important;
+    height: 268px !important;
+  }
+  .muiWH{
+    width: 271px !important;
+    height: 272px !important;
+  }
+  .jsWH{
+      width: 240px!important;
+      height: 266px !important;
+      
+  }
+  .cssWH{
+    width: 230px!important;
+    height: 264px !important;
+    
+  }
+  .htmlWH{
+    width: 240px!important;
+    height: 269px !important;
+    
+  }
+  .nodeWH{
+    width: 230px !important;
+    height: 260px !important;
+  }
+  .figmaWH{
+    width: 260px!important;
+    height: 260px !important;
+  }
+}
+@media (min-width: 769px) { 
+    
+
+}
+
