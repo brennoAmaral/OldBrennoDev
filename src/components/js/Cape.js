@@ -6,7 +6,7 @@ import '../css/Cape.css';
 
 export default function Cape() {
   return (
-    <Card className="radiusNone bgGrayPrimary jcCenter ">
+    <Card className="borderNone bgGrayPrimary jcCenter ">
       <CardContent >
 
         <pre

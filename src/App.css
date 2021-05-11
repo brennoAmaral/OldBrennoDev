@@ -36,6 +36,7 @@
 
 
 
+
 .colorGreen{
     color: var(--color-green)!important;
 }
@@ -58,10 +59,14 @@
 
 
 
-.radiusNone{
+.borderNone{
     border-radius: 0 !important;
+    border: none;
 }
 
+.widthMax{
+  width: 100%;
+}
 
 @media (max-width: 768px) { 
     
@@ -71,7 +76,7 @@
     .fontPrimaryTopic{
         font-family: var(--font-primary) !important;
         font-size: var(--fontsize-mobile-topic) !important;
-        font-weight: 600 !important;
+        font-weight: 700 !important;
     }
     
     .fontPrimary{
@@ -82,7 +87,7 @@
       font-family: var(--font-secundary);
       font-size: 13pt;
       text-align: justify;
-      font-weight: 600;
+      font-weight: 700;
     }
     .avatarWH{
         width: var(--size-avatar)!important ;

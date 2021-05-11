@@ -5,7 +5,7 @@ import '../css/AboutMe.css';
 export default function AboutMe() {
   return (
 
-    <Card className=" radiusNone bgWhite">
+    <Card className=" borderNone bgWhite">
       <CardContent>
         <Typography
           className="colorGreen
