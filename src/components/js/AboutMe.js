@@ -10,7 +10,7 @@ export default function AboutMe() {
         <Typography
           className="colorGreen
           fontPrimaryTopic
-          distance"
+          distanceAboutMe"
           align="center">
           About Me
         </Typography>

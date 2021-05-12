@@ -5,7 +5,8 @@ import Sidebar from './components/js/Sidebar.js';
 import Perfil from './components/js/Perfil';
 import AboutMe from './components/js/AboutMe';
 import DevSkills from '../src/components/js/DevSkills';
-
+import Services from './components/js/Services';
+import Experience from './components/js/Experience';
 
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -23,7 +24,8 @@ export default function App() {
       <Perfil/>
       <AboutMe/>
       <DevSkills/>
-
+      <Services/>
+      <Experience/>
     </>
   );
 }

@@ -1,9 +1,7 @@
-.distance{
-  padding:10px 0 10px 0;
-}
+
 .swiper-container {
   width: 300px;
-  height: 370px;
+  height: 340px;
 }
 
 
@@ -34,6 +32,9 @@
   height: 100%;
   object-fit: cover;
 }
+.swiper-pagination-bullets {
+  bottom: 0px;
+}
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
@@ -54,12 +55,12 @@ img{
 
 @media (max-width: 768px) { 
   .reactWH{
-    width: 230px !important;
-    height: 268px !important;
+    width: 225px !important;
+    height: 260px !important;
   }
   .muiWH{
-    width: 271px !important;
-    height: 272px !important;
+    width: 261px !important;
+    height: 262px !important;
   }
   .jsWH{
       width: 240px!important;
@@ -73,7 +74,7 @@ img{
   }
   .htmlWH{
     width: 240px!important;
-    height: 269px !important;
+    height: 265px !important;
     
   }
   .nodeWH{

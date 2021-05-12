@@ -16,13 +16,13 @@ import '../css/Carousel.css';
 
 export default function Carousel() {
   return (
-    <Box>
+    <Box className='borderNone'>
       <Swiper slidesPerView={1} spaceBetween={20} freeMode={false}
         pagination={{ 'clickable': true }} className="mySwiper">
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               React
             </Typography>
           </Box>
@@ -33,7 +33,7 @@ export default function Carousel() {
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               Material UI
             </Typography>
           </Box>
@@ -44,7 +44,7 @@ export default function Carousel() {
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               JavaScript
             </Typography>
           </Box>
@@ -55,7 +55,7 @@ export default function Carousel() {
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               HTML 5
             </Typography>
           </Box>
@@ -66,7 +66,7 @@ export default function Carousel() {
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               CSS 3
             </Typography>
           </Box>
@@ -77,7 +77,7 @@ export default function Carousel() {
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               Node.js
             </Typography>
           </Box>
@@ -88,7 +88,7 @@ export default function Carousel() {
 
         <SwiperSlide>
           <Box>
-            <Typography className='distance fontPrimaryTopic  colorGreen'>
+            <Typography className='fontPrimaryTopic  colorGreen'>
               Figma
             </Typography>
           </Box>

@@ -59,14 +59,21 @@
 }
 
 
-
+.distance{
+  padding-bottom: 30px;
+}
 .borderNone{
     border-radius: 0 !important;
     border: none;
+    box-shadow: none !important;
 }
 
 .widthMax{
   width: 100%;
+}
+
+.paragraph{
+  text-indent: 20px;
 }
 
 @media (max-width: 768px) { 
@@ -85,10 +92,10 @@
         font-size: var(--fontsize-mobile) !important;
     }
     .fontText{
-      font-family: var(--font-secundary);
+      font-family: var(--font-secundary)!important;
       font-size: 13pt;
       text-align: justify;
-      font-weight: 700;
+      font-weight: 700 !important;
     }
     .avatarWH{
         width: var(--size-avatar)!important ;
