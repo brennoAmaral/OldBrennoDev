@@ -11,7 +11,7 @@ import '../css/Experience.css';
 
 export default function Experience() {
   return (
-    <Card className="borderNone bgGrayPrimary ">
+    <Card className="borderNone bgGrayPrimary" >
       <CardContent>
         <Typography
           variant='h4'
@@ -21,7 +21,7 @@ export default function Experience() {
             distance">
           Experiências
         </Typography>
-        <Card className="">
+        <Card className="cardWH">
           <CardActionArea href="https://www.base1it.com/">
             <CardMedia
               component="img"
