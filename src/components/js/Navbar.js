@@ -28,7 +28,7 @@ export default function NavBar(props) {
         <IconButton edge="end" color="inherit" onClick={() => {
           onOpen(true);
         }} className="colorGrayPrimary colorGrayPrimary" >
-          <MenuIcon />
+          <MenuIcon style={{ fontSize: '37' }} />
         </IconButton>
       </Toolbar>
     </AppBar>

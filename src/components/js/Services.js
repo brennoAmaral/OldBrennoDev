@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Typography } from '@material-ui/core';
+import { Box, Card, CardContent, Grid, Typography } from '@material-ui/core';
 import React from 'react';
 import Developing from '../img/developing.png';
 import Maintenance from '../img/maintenance.png';
@@ -15,60 +15,79 @@ export default function Services() {
           fontTopic
           distance"
           variant='h4'>Serviços</Typography>
-        <Box>
-          <Box className="distance">
-            <img src={Developing} className="developingWH" />
-          </Box>
-          <Box>
-            <Typography
-              variant='subtitle1'
-              className="
-              colorGrayPrimary
-              fontText
-              jcText
-              paragraph">
-              Desenvolvo landing pages, templates e design
-              responsivos para sua empresa, blog ou site pessoal.
-            </Typography>
-          </Box>
-        </Box>
-        <Box>
-          <Box className="descriptionDistance">
-            <img src={Maintenance} className="maintenanceWH" />
-          </Box>
-          <Box>
-            <Typography
-              variant='subtitle1'
-              className="
-              colorGrayPrimary
-              fontText
-              jcText
-              paragraph">
-                Realizo manutenção preventiva e reativa a
-                 seus computadores desktop ou notebooks.
-                 Também faço orçamento para aprimoramento
-                 dos computadores desktop.
-            </Typography>
-          </Box>
-        </Box>
 
-        <Box>
-          <Box className="descriptionDistance">
-            <img src={Network} className="networkWH" />
-          </Box>
-          <Box>
-            <Typography
-              variant='subtitle1'
-              className="
+
+        <Grid container>
+          <Grid item md='6'>
+
+            <Box>
+              <Box className="distance">
+                <img src={Developing} className="developingWH" />
+              </Box>
+              <Box>
+                <Typography
+                  align='center'
+                  variant='subtitle1'
+                  className="
               colorGrayPrimary
               fontText
               jcText
               paragraph">
-             Faço instalação e configuração de sua rede local.
-            </Typography>
-          </Box>
-        </Box>
+                  Desenvolvo landing pages, templates e design
+                  responsivos para sua empresa, blog ou site pessoal.
+                </Typography>
+              </Box>
+            </Box>
+          </Grid>
+
+
+          <Grid item md='6'>
+            <Box>
+              <Box className="descriptionDistance">
+                <img src={Maintenance} className="maintenanceWH" />
+              </Box>
+              <Box>
+                <Typography
+                  align='center'
+                  variant='subtitle1'
+                  className="
+              colorGrayPrimary
+              fontText
+              jcText
+              paragraph">
+                  Realizo manutenção preventiva e reativa a
+                  seus computadores desktop ou notebooks.
+                  Também faço orçamento para aprimoramento
+                  dos computadores desktop.
+                </Typography>
+              </Box>
+            </Box>
+          </Grid>
+
+          <Grid item md='12'>
+            <Box>
+              <Box className="descriptionDistance">
+                <img src={Network} className="networkWH" />
+              </Box>
+              <Box>
+                <Typography
+                  align='center'
+                  variant='subtitle1'
+                  className="
+              colorGrayPrimary
+              fontText
+              jcText
+              paragraph">
+                  Faço instalação e configuração de sua rede local.
+                </Typography>
+              </Box>
+            </Box>
+
+          </Grid>
+        </Grid>
+
+
       </CardContent>
-    </Card>
+    </Card >
   );
 }
