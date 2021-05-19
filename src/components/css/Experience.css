@@ -6,7 +6,6 @@
   
   .fontExp{
       font-family: var(--font-primary) !important;
-      font-size: 16pt !important;
       font-weight: 700 !important;
       padding-bottom: 8px;
   }

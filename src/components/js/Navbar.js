@@ -20,9 +20,9 @@ export default function NavBar(props) {
       <Toolbar style={{ justifyContent: 'space-between' }} className="bgGreen">
         <Box paddingRight={5}></Box>
         <Typography
-          variant="h6"
+          variant="h4"
           anchorOrigin={{ horizontal: 'center' }}
-          className="fontPrimaryTopic colorGrayPrimary ">
+          className="fontTopic colorGrayPrimary ">
           Brenno(Dev);
         </Typography>
         <IconButton edge="end" color="inherit" onClick={() => {

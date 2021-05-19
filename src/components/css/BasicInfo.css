@@ -4,13 +4,11 @@
 
 @media (max-width: 768px) {
   .fontName{
-    font-size: 16pt !important;
     font-weight: bold !important;
     font-family: 'roboto-mono', monospace !important;
     color: var(--color-primary-gray)!important;
   }
   .fontOcupation{
-    font-size: 11pt !important;
     font-weight: bold !important;
     font-family: 'roboto-mono', monospace !important;
     color: var(--color-primary-gray)!important;
@@ -24,13 +22,11 @@
   /* durante o desenvolvimento do site eu alterei uma classe root para deixar a side bar toda com a cor verde, 
   porem isso afetou esse bloco e por esse motivo eu criei essa classe */
   .fontName{
-    font-size: 16pt !important;
     font-weight: bold !important;
     font-family: 'roboto-mono', monospace !important;
     color: var(--color-primary-gray)!important;
   }
   .fontOcupation{
-    font-size: 11pt !important;
     font-weight: bold !important;
     font-family: 'roboto-mono', monospace !important;
     color: var(--color-primary-gray)!important;

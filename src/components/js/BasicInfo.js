@@ -16,14 +16,14 @@ export default function BasicInfo() {
       paddingTopDistance"
     >
 
-      <Typography className="
+      <Typography variant='h6' className="
       fontName
       colorPrimaryGray
       textCenter">
         Brenno Amaral Marques Oliveira
       </Typography>
 
-      <Typography className="
+      <Typography variant='subtitle1' className="
       fontOcupation
       colorPrimaryGray
       textCenter">

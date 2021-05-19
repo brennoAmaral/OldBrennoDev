@@ -1,7 +1,7 @@
-import { Card, Box, Typography, CardContent } from '@material-ui/core';
+import { Card, Box, Typography, CardContent, Grid } from '@material-ui/core';
 import React from 'react';
-import Carousel from './Carousel';
-
+import CarouselSkills from './CarouselSkills';
+import {Card1} from '../cards/js';
 import '../css/DevSkills.css';
 
 export default function DevSkills() {
@@ -9,13 +9,28 @@ export default function DevSkills() {
     <Card className="widthMax bgGreen borderNone">
       <CardContent>
         <Typography
+          variant='h4'
           className="colorGrayPrimary
-          fontPrimaryTopic
+          fontTopic
           distanceDevSkills">
           DevSkills
         </Typography>
-        <Box>
-          <Carousel/>
+        <Box display={{ xl: 'none', md: 'none' }}>
+          <CarouselSkills/>
+        </Box>
+        <Box display={{xs: 'none', md: 'block'}}
+          width="100%">
+          <Grid container>
+            <Grid item md="6">
+              <Card1/>
+            </Grid>
+            <Grid item md="6">
+              <Card1/>
+            </Grid>
+            <Grid item>
+              <Card1/>
+            </Grid>
+          </Grid>
         </Box>
       </CardContent>
     </Card>

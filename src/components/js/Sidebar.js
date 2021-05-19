@@ -4,7 +4,10 @@ import {
   List,
   ListItemIcon,
   ListItemText,
-  ListItem} from '@material-ui/core';
+  ListItem,
+  Link,
+  Typography,
+} from '@material-ui/core';
 import PersonIcon from '@material-ui/icons/Person';
 
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
@@ -29,45 +32,70 @@ export default function SideBar(props) {
 
           <ListItem button>
             <ListItemIcon>
-              <PersonIcon />
+              <PersonIcon style={{ fontSize: 30 }}/>
             </ListItemIcon>
-            <ListItemText primary="About me"
-              className="listItem" />
+            <ListItemText>
+              <Typography variant='h5' className="colorGreen fontTopic">
+                About Me
+              </Typography>
+            </ListItemText>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
-              <DeveloperModeIcon />
+              <DeveloperModeIcon style={{ fontSize: 30 }}/>
             </ListItemIcon>
-            <ListItemText primary="Dev Skills" />
+            <ListItemText>
+              <Typography variant='h5' className="colorGreen fontTopic">
+                Dev Skills
+              </Typography>
+            </ListItemText>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
-              <BusinessCenterIcon />
+              <BusinessCenterIcon style={{ fontSize: 30 }}/>
             </ListItemIcon>
-            <ListItemText primary="Serviços" />
+            <ListItemText>
+              <Typography variant='h6' className="colorGreen fontTopic">
+                Serviços
+              </Typography>
+            </ListItemText>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
-              <TimelineIcon />
+              <TimelineIcon style={{ fontSize: 30 }}/>
             </ListItemIcon>
-            <ListItemText primary="Experiência" />
+            <ListItemText>
+              <Typography variant='h6' className="colorGreen fontTopic">
+                Experiências
+              </Typography>
+            </ListItemText>
           </ListItem>
 
           <ListItem button>
-            <ListItemIcon>
-              <VerifiedUserIcon />
+            <ListItemIcon >
+              <VerifiedUserIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
-            <ListItemText primary="Certificados" />
+            <ListItemText>
+              <Typography variant='h6' className="colorGreen fontTopic">
+                Certificados
+              </Typography>
+            </ListItemText>
           </ListItem>
 
-          <ListItem button>
+          <ListItem button >
             <ListItemIcon>
-              <PermPhoneMsgIcon />
+              <PermPhoneMsgIcon style={{ fontSize: 30 }}/>
             </ListItemIcon>
-            <ListItemText primary="Contatos" />
+            <Link href='#idContacs' onClick={() => onClose(false)}>
+              <ListItemText>
+                <Typography variant='h6' className="colorGreen fontTopic">
+                  Contatos
+                </Typography>
+              </ListItemText>
+            </Link>
           </ListItem>
 
         </List>
@@ -78,7 +106,7 @@ export default function SideBar(props) {
   );
 }
 
-SideBar.propTypes={
+SideBar.propTypes = {
   onClose: PropTypes.func.isRequired,
   open: PropTypes.bool.isRequired,
 };

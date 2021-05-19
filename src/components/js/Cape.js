@@ -11,7 +11,7 @@ export default function Cape() {
 
         <pre
           gutterBottom
-          className="colorGreen jcCenter fontPrimary textCenter"
+          className="colorGreen jcCenter fontText textCenter"
         >
           {`
 while  (alive) {

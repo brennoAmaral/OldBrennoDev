@@ -14,14 +14,15 @@ export default function Experience() {
     <Card className="borderNone bgGrayPrimary ">
       <CardContent>
         <Typography
+          variant='h4'
           className="
-            fontPrimaryTopic
+            fontTopic
             colorGreen
             distance">
           Experiências
         </Typography>
         <Card className="">
-          <CardActionArea>
+          <CardActionArea href="https://www.base1it.com/">
             <CardMedia
               component="img"
               alt="Contemplative Reptile"
@@ -31,12 +32,17 @@ export default function Experience() {
             />
             <CardContent>
               <Typography
-                className="fontExp colorGrayPrimary" component="p">
-                <a>Base1</a> (06/2019 - 05/2021)
+                variant='subtitle1'
+                className="fontExp colorGrayPrimary"
+                component="p">
+                Base1 06/2019 - 05/2021
               </Typography>
               <Typography
+                variant='subtitle1'
                 className="
+                paragraph
                 fontText
+                jcText
                 colorGrayPrimary
                 paragraph"
                 component="p">

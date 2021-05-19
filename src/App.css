@@ -6,14 +6,12 @@
     --color-footer-gray:#1c1c1c;
     --font-primary: 'roboto-mono', monospace;
     --font-secundary: 'roboto', monospace;
-    --fontsize-mobile-topic: 20pt;
-    --fontsize-mobile: 15pt;
-    --fontsize-desktop-topic: 25pt;
-    --fontsize-desktop: 20pt;
     --size-avatar:200px;
     --swiper-theme-color: #62E093 !important;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;    
@@ -37,7 +35,6 @@
 
 
 
-
 .colorGreen{
     color: var(--color-green)!important;
 }
@@ -58,7 +55,9 @@
     text-align: center;
 }
 
-
+.jcText{
+  text-align: justify;
+}
 .distance{
   padding-bottom: 30px;
 }
@@ -76,25 +75,22 @@
   text-indent: 20px;
 }
 
+.swiperContainerWH{
+  height: 300px;
+}
+
 @media (max-width: 768px) { 
     
     .open{
         transform: translateX(300px);
     }
-    .fontPrimaryTopic{
+    .fontTopic{
         font-family: var(--font-primary) !important;
-        font-size: var(--fontsize-mobile-topic) !important;
         font-weight: 700 !important;
     }
-    
-    .fontPrimary{
-        font-family: var(--font-secundary) !important;
-        font-size: var(--fontsize-mobile) !important;
-    }
+
     .fontText{
-      font-family: var(--font-secundary)!important;
-      font-size: 13pt;
-      text-align: justify;
+      font-family: var(--font-secundary) !important;
       font-weight: 700 !important;
     }
     .avatarWH{

@@ -6,8 +6,10 @@
   
 
 }
+.sizeIcons{
+  font-size: 40px;
+}
 .MuiListItemText-primary{
-  font-size: var(--fontsize-mobile)!important;
   font-family: var(--font-secundary)!important;
   font-weight: 500!important;
 }

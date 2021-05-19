@@ -1,0 +1,57 @@
+.cardStyle{
+  width: 300px;
+  height: 315px;
+  background-color: var(--color-sidebar-gray) ;
+  text-align: center;
+  border-radius: 5%;
+}
+.cardStyle box img{
+  margin-right: auto ;
+  margin-left: auto; 
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.titleDistance{
+  padding: 5px 0 5px 0;
+}
+
+
+@media (max-width: 768px) { 
+  
+  .reactWH{
+    width: 225px !important;
+    height: 260px !important;
+  }
+  .muiWH{
+    width: 261px !important;
+    height: 262px !important;
+  }
+  .jsWH{
+      width: 240px!important;
+      height: 266px !important;
+      
+  }
+  .cssWH{
+    width: 230px!important;
+    height: 264px !important;
+    
+  }
+  .htmlWH{
+    width: 240px!important;
+    height: 265px !important;
+    
+  }
+  .nodeWH{
+    width: 230px !important;
+    height: 260px !important;
+  }
+  .figmaWH{
+    width: 260px!important;
+    height: 260px !important;
+  }
+}
+@media (min-width: 769px) { 
+    
+
+}

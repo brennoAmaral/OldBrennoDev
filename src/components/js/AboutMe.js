@@ -8,19 +8,24 @@ export default function AboutMe() {
     <Card className=" borderNone bgWhite">
       <CardContent>
         <Typography
+          variant='h4'
           className="colorGreen
-          fontPrimaryTopic
+          fontTopic
           distanceAboutMe"
           align="center">
           About Me
         </Typography>
-        <Typography>
-          <p className="paragraph colorGrayPrimary fontText ">
+        <Typography
+          variant='subtitle1'
+          className="paragraph
+            fontText
+            jcText
+            colorGrayPrimary
+            paragraph">
             Estudante de Ti começando carreira de desenvolvimento
             de software. Amo desafios lógicos e aprender novas tecnologias.
             Possuo conhecimento diversificado na área de TI devido
             minha formação.
-          </p>
         </Typography>
       </CardContent>
     </Card>

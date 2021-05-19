@@ -10,17 +10,22 @@ export default function Services() {
     <Card className="textCenter borderNone">
       <CardContent>
         <Typography
-          className="fontPrimaryTopic
-          distance">Serviços</Typography>
+          className="
+          colorGreen
+          fontTopic
+          distance"
+          variant='h4'>Serviços</Typography>
         <Box>
           <Box className="distance">
             <img src={Developing} className="developingWH" />
           </Box>
           <Box>
             <Typography
+              variant='subtitle1'
               className="
               colorGrayPrimary
               fontText
+              jcText
               paragraph">
               Desenvolvo landing pages, templates e design
               responsivos para sua empresa, blog ou site pessoal.
@@ -33,9 +38,11 @@ export default function Services() {
           </Box>
           <Box>
             <Typography
+              variant='subtitle1'
               className="
               colorGrayPrimary
               fontText
+              jcText
               paragraph">
                 Realizo manutenção preventiva e reativa a
                  seus computadores desktop ou notebooks.
@@ -46,14 +53,16 @@ export default function Services() {
         </Box>
 
         <Box>
-          <Box className=" descriptionDistance">
+          <Box className="descriptionDistance">
             <img src={Network} className="networkWH" />
           </Box>
           <Box>
             <Typography
+              variant='subtitle1'
               className="
               colorGrayPrimary
               fontText
+              jcText
               paragraph">
              Faço instalação e configuração de sua rede local.
             </Typography>
