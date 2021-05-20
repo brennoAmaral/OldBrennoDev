@@ -9,6 +9,7 @@ import Experience from './components/js/Experience';
 import Qualificacoes from './components/js/Qualificacoes';
 import Contatcs from './components/js/Contacts';
 import './App.css';
+import Footer from './components/js/Footer.js';
 
 export default function App() {
   const [open, setOpen] = useState(false);
@@ -30,6 +31,7 @@ export default function App() {
       <Experience />
       <Qualificacoes />
       <Contatcs />
+      <Footer/>
 
     </>
   );

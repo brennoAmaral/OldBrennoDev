@@ -15,99 +15,98 @@ export default function Contatcs() {
       <CardContent>
 
         <Grid container>
-          <Grid item xs='6' sm='6' md='6' lg='6' xl='6'>
+          <Grid item xs='12' sm='6' md='6' lg='6' xl='6' >
             <Box>
+              <Typography
+                className='fontTopic colorGreen'
+                variant='h4'>
+                Contatos
+              </Typography>
+            </Box>
+
+            <Box display='flex' alignItems='center' className='alignContacts'>
               <Box>
-                <Typography
-                  className='fontTopic colorGreen'
-                  variant='h4'>
-                  Contatos
-                </Typography>
+                <img src={Linkedin} className='iconWH'></img>
               </Box>
-
-              <Box display='flex' alignItems='center' className='alignContacs'>
-                <Box>
-                  <img src={Linkedin} className='iconWH'></img>
-                </Box>
-                <Box className='distanceIcon'>
-                  <a chref='' className='decorationNone'>
-                    <Typography
-                      variant='subtitle1'
-                      className='fontText
+              <Box className='distanceIcon'>
+                <a href='https://www.linkedin.com/in/brenno-a-9822a3120/' className='decorationNone'>
+                  <Typography
+                    variant='subtitle1'
+                    className='fontText
                     colorGreen'>
-                      Linkedin
-                    </Typography>
-                  </a>
-                </Box>
+                    Linkedin
+                  </Typography>
+                </a>
               </Box>
+            </Box>
 
-              <Box display='flex' alignItems='center' className='alignContacs'>
-                <Box>
-                  <img src={GitHub} className='iconWH'></img>
-                </Box>
-                <Box className='distanceIcon'>
-                  <a chref='' className='decorationNone'>
-                    <Typography
-                      variant='subtitle1'
-                      className='fontText
-                    colorGreen'>
-                      GitHub
-                    </Typography>
-                  </a>
-                </Box>
+            <Box display='flex' alignItems='center' className='alignContacts'>
+              <Box>
+                <img src={GitHub} className='iconWH'></img>
               </Box>
-
-              <Box display='flex' alignItems='center' className='alignContacs'>
-                <Box>
-                  <img src={Gmail} className='iconWH'></img>
-                </Box>
-                <Box className='distanceIcon'>
-                  <a chref='' className='decorationNone'>
-                    <Typography
-                      variant='subtitle1'
-                      className='fontText
+              <Box className='distanceIcon'>
+                <a href='https://github.com/brennoAmaral' className='decorationNone'>
+                  <Typography
+                    variant='subtitle1'
+                    className='fontText
                     colorGreen'>
-                      Gmail
-                    </Typography>
-                  </a>
-                </Box>
+                    GitHub
+                  </Typography>
+                </a>
               </Box>
+            </Box>
 
-              <Box display='flex' alignItems='center' className='alignContacs'>
-                <Box>
-                  <img src={WhatsApp} className='iconWH'></img>
-                </Box>
-                <Box className='distanceIcon'>
-                  <a chref='' className='decorationNone'>
-                    <Typography
-                      variant='subtitle1'
-                      className='fontText
-                    colorGreen'>
-                      WhatApp
-                    </Typography>
-                  </a>
-                </Box>
+            <Box display='flex' alignItems='center' className='alignContacts'>
+              <Box>
+                <img src={Gmail} className='iconWH'></img>
               </Box>
-
-              <Box display='flex' alignItems='center' className='alignContacs'>
-                <Box>
-                  <img src={Telegram} className='iconWH'></img>
-                </Box>
-                <Box className='distanceIcon'>
-                  <a chref='' className='decorationNone'>
-                    <Typography
-                      variant='subtitle1'
-                      className='fontText
+              <Box className='distanceIcon'>
+                <a chref='' className='decorationNone'>
+                  <Typography
+                    variant='subtitle1'
+                    className='fontText
                     colorGreen'>
-                      Telegram
-                    </Typography>
-                  </a>
-                </Box>
+                    Gmail
+                  </Typography>
+                </a>
+              </Box>
+            </Box>
+
+            <Box display='flex' alignItems='center' className='alignContacts'>
+              <Box>
+                <img src={WhatsApp} className='iconWH'></img>
+              </Box>
+              <Box className='distanceIcon'>
+                <a chref='' className='decorationNone'>
+                  <Typography
+                    variant='subtitle1'
+                    className='fontText
+                    colorGreen'>
+                    WhatApp
+                  </Typography>
+                </a>
+              </Box>
+            </Box>
+
+            <Box display='flex' alignItems='center'
+              className='alignContacts lastChildDistanceBottom'>
+              <Box>
+                <img src={Telegram} className='iconWH'></img>
+              </Box>
+              <Box className='distanceIcon'>
+                <a chref='' className='decorationNone'>
+                  <Typography
+                    variant='subtitle1'
+                    className='fontText
+                    colorGreen'>
+                    Telegram
+                  </Typography>
+                </a>
               </Box>
             </Box>
           </Grid>
 
-          <Grid item xs='6' sm='6' md='6' lg='6' xl='6'>
+          <Grid item xs='12' sm='6' md='6' lg='6' xl='6'>
             <Box>
               <Typography
                 className='fontTopic colorGreen'
@@ -116,7 +115,7 @@ export default function Contatcs() {
               </Typography>
             </Box>
 
-            <Box display='flex' alignItems='center' className='alignContacs'>
+            <Box display='flex' alignItems='center' className='alignContacts'>
               <Box>
                 <img src={Freelas99} className='iconWH'></img>
               </Box>
@@ -132,7 +131,7 @@ export default function Contatcs() {
               </Box>
             </Box>
 
-            <Box display='flex' alignItems='center' className='alignContacs'>
+            <Box display='flex' alignItems='center' className='alignContacts'>
               <Box>
                 <img src={Workana} className='iconWH'></img>
               </Box>
