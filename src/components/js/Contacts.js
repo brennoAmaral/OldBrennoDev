@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Grid, Typography } from '@material-ui/core';
+import { Box, Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
 import React from 'react';
 import Gmail from '../img/icon/gmail-icon.svg';
 import Linkedin from '../img/icon/linkedin-icon.svg';
@@ -29,14 +29,14 @@ export default function Contatcs() {
                 <img src={Linkedin} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a href='https://www.linkedin.com/in/brenno-a-9822a3120/' className='decorationNone'>
+                <Link href='https://www.linkedin.com/in/brenno-a-9822a3120/' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     Linkedin
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
 
@@ -45,14 +45,14 @@ export default function Contatcs() {
                 <img src={GitHub} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a href='https://github.com/brennoAmaral' className='decorationNone'>
+                <Link href='https://github.com/brennoAmaral' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     GitHub
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
 
@@ -61,14 +61,14 @@ export default function Contatcs() {
                 <img src={Gmail} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a chref='' className='decorationNone'>
+                <Link href='' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     Gmail
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
 
@@ -77,14 +77,14 @@ export default function Contatcs() {
                 <img src={WhatsApp} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a chref='' className='decorationNone'>
+                <Link href='' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     WhatApp
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
 
@@ -94,14 +94,14 @@ export default function Contatcs() {
                 <img src={Telegram} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a chref='' className='decorationNone'>
+                <Link href='' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     Telegram
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
           </Grid>
@@ -120,14 +120,14 @@ export default function Contatcs() {
                 <img src={Freelas99} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a chref='' className='decorationNone'>
+                <Link href='' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     99 Freelas
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
 
@@ -136,14 +136,14 @@ export default function Contatcs() {
                 <img src={Workana} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <a chref='' className='decorationNone'>
+                <Link href='' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
                     colorGreen'>
                     Workanas
                   </Typography>
-                </a>
+                </Link>
               </Box>
             </Box>
           </Grid>
