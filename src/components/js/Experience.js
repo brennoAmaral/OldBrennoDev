@@ -7,12 +7,12 @@ import {
   CardMedia,
   Grid,
 } from '@material-ui/core';
-import Base1 from '../img/image 12.jpg';
+import Base1 from '../img/b1.jpg';
 import '../css/Experience.css';
 
 export default function Experience() {
   return (
-    <Card className="borderNone bgGrayPrimary" >
+    <Card className="borderNone bgGrayPrimary" id='idExperience'>
       <CardContent>
         <Typography
           variant='h4'

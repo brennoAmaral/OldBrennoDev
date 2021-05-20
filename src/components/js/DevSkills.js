@@ -6,7 +6,7 @@ import '../css/DevSkills.css';
 
 export default function DevSkills() {
   return (
-    <Card className="widthMax bgGreen borderNone">
+    <Card className="widthMax bgGreen borderNone" id='idDevSkills'>
       <CardContent>
         <Typography
           variant='h4'

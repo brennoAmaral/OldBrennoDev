@@ -9,23 +9,20 @@ export default function BasicInfo() {
 
 
     <Box
-      height="60px"
-      className="bgGreen
-      radiusNone
-      bgGreen
+      className="radiusNone
       paddingTopDistance"
     >
 
       <Typography variant='h6' className="
       fontName
-      colorPrimaryGray
+      colorGreen
       textCenter">
         Brenno Amaral Marques Oliveira
       </Typography>
 
       <Typography variant='subtitle1' className="
       fontOcupation
-      colorPrimaryGray
+      colorGreen
       textCenter">
         Desenvolvedor de Software &amp; Tecnico de TI
       </Typography>

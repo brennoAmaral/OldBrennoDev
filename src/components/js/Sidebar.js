@@ -32,62 +32,77 @@ export default function SideBar(props) {
 
           <ListItem button>
             <ListItemIcon>
-              <PersonIcon style={{ fontSize: 30 }}/>
+              <PersonIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
-            <ListItemText>
-              <Typography variant='h5' className="colorGreen fontTopic">
-                About Me
-              </Typography>
-            </ListItemText>
+
+            <Link href='#idaBoutMe' onClick={() => onClose(false)}>
+              <ListItemText>
+                <Typography variant='h5' className="colorGreen fontTopic">
+                  About Me
+                </Typography>
+              </ListItemText>
+            </Link>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
-              <DeveloperModeIcon style={{ fontSize: 30 }}/>
+              <DeveloperModeIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
-            <ListItemText>
-              <Typography variant='h5' className="colorGreen fontTopic">
-                Dev Skills
-              </Typography>
-            </ListItemText>
+
+            <Link href='#idDevSkills' onClick={() => onClose(false)}>
+              <ListItemText>
+                <Typography variant='h5' className="colorGreen fontTopic">
+                  Dev Skills
+                </Typography>
+              </ListItemText>
+            </Link>
+
+
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
-              <BusinessCenterIcon style={{ fontSize: 30 }}/>
+              <BusinessCenterIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
-            <ListItemText>
-              <Typography variant='h6' className="colorGreen fontTopic">
-                Serviços
-              </Typography>
-            </ListItemText>
+
+            <Link href='#idServices' onClick={() => onClose(false)}>
+              <ListItemText>
+                <Typography variant='h6' className="colorGreen fontTopic">
+                  Serviços
+                </Typography>
+              </ListItemText>
+            </Link>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon>
-              <TimelineIcon style={{ fontSize: 30 }}/>
+              <TimelineIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
-            <ListItemText>
-              <Typography variant='h6' className="colorGreen fontTopic">
-                Experiências
-              </Typography>
-            </ListItemText>
+            <Link href='#idExperience' onClick={() => onClose(false)}>
+              <ListItemText>
+                <Typography variant='h6' className="colorGreen fontTopic">
+                  Experiências
+                </Typography>
+              </ListItemText>
+            </Link>
           </ListItem>
 
           <ListItem button>
             <ListItemIcon >
               <VerifiedUserIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
-            <ListItemText>
-              <Typography variant='h6' className="colorGreen fontTopic">
-                Certificados
-              </Typography>
-            </ListItemText>
+            <Link href='#idQualificacoes' onClick={() => onClose(false)}>
+              <ListItemText>
+                <Typography variant='h6' className="colorGreen fontTopic">
+                  Certificados
+                </Typography>
+              </ListItemText>
+            </Link>
           </ListItem>
 
           <ListItem button >
             <ListItemIcon>
-              <PermPhoneMsgIcon style={{ fontSize: 30 }}/>
+              <PermPhoneMsgIcon style={{ fontSize: 30 }} />
             </ListItemIcon>
             <Link href='#idContacs' onClick={() => onClose(false)}>
               <ListItemText>

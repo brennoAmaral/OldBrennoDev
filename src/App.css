@@ -1,9 +1,9 @@
 :root{
     --color-white:#ffff;
     --color-green:#62E093;
-    --color-primary-gray:#2c2c2c;
+    --color-primary-gray:#212121;
     --color-sidebar-gray:#3c3c3c;
-    --color-footer-gray:#1c1c1c;
+    --color-footer-gray:#141414;
     --font-primary: 'roboto-mono', monospace;
     --font-secundary: 'roboto', monospace;
     --size-avatar:200px;

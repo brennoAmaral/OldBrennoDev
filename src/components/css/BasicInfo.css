@@ -1,5 +1,6 @@
 .paddingTopDistance{
-  padding-top: 20px;
+  padding: 20px 0;
+  background-color: var(--color-primary-gray);
 }
 
 @media (max-width: 768px) {

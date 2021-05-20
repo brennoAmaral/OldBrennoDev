@@ -89,7 +89,7 @@ export default function Contatcs() {
             </Box>
 
             <Box display='flex' alignItems='center'
-              className='alignContacts lastChildDistanceBottom'>
+              className='alignContacts'>
               <Box>
                 <img src={Telegram} className='iconWH'></img>
               </Box>
