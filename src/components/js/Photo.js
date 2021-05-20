@@ -4,7 +4,7 @@ import '../css/Photo.css';
 
 export default function Photo() {
   return (
-    <Box className="backgroundAvatar ">
+    <Box className="backgroundAvatar">
       <Avatar alt="Remy Sharp" src="" className="avatarWH alignAvatar" />
     </Box>
 

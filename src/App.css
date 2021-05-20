@@ -33,7 +33,9 @@ html{
     background-color: var(--color-footer-gray)!important;
 }
 
-
+.decorationNone{
+  text-decoration: none;
+}
 
 .colorGreen{
     color: var(--color-green)!important;
@@ -79,19 +81,20 @@ html{
   height: 300px;
 }
 
+.fontTopic{
+  font-family: var(--font-primary) !important;
+  font-weight: 700 !important;
+}
+
+.fontText{
+font-family: var(--font-secundary) !important;
+font-weight: 700 !important;
+}
+
 @media (max-width: 768px) { 
     
     .open{
         transform: translateX(300px);
-    }
-    .fontTopic{
-        font-family: var(--font-primary) !important;
-        font-weight: 700 !important;
-    }
-
-    .fontText{
-      font-family: var(--font-secundary) !important;
-      font-weight: 700 !important;
     }
     .avatarWH{
         width: var(--size-avatar)!important ;

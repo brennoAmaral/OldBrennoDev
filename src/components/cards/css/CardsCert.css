@@ -1,0 +1,10 @@
+.cardStyle box img{
+  margin-right: auto ;
+  margin-left: auto; 
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.paddingTopImgQualificacao{
+  padding-top: 30px;
+}

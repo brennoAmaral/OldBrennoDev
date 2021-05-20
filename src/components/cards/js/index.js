@@ -5,3 +5,5 @@ export * from './Card4';
 export * from './Card5';
 export * from './Card6';
 export * from './Card7';
+export * from './CardCert1';
+export * from './CardCert2';

@@ -1,7 +1,7 @@
 .cardStyle{
   width: 300px;
   height: 315px;
-  background-color: var(--color-sidebar-gray) ;
+  background-color: var(--color-primary-gray) ;
   text-align: center;
   border-radius: 5%;
 }

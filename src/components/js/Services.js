@@ -64,7 +64,7 @@ export default function Services() {
             </Box>
           </Grid>
 
-          <Grid item md='12'>
+          <Grid item xs='12' sm='12' md='12' lg='12' xl='12'>
             <Box>
               <Box className="descriptionDistance">
                 <img src={Network} className="networkWH" />
