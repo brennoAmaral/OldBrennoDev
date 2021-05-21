@@ -1,4 +1,5 @@
-import { Box, Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
+import { Box,
+  Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
 import React from 'react';
 import Gmail from '../img/icon/gmail-icon.svg';
 import Linkedin from '../img/icon/linkedin-icon.svg';
