@@ -3,8 +3,12 @@
 }
 .MuiTypography-body1 {
   color: var(--color-green);
-  
-
+}
+.MuiListItem-gutters {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px!important;
+  padding-top: 16px!important;
 }
 .sizeIcons{
   font-size: 40px;

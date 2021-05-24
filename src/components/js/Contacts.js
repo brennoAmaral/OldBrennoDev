@@ -1,7 +1,6 @@
 import { Box,
   Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
 import React from 'react';
-import Gmail from '../img/icon/gmail-icon.svg';
 import Linkedin from '../img/icon/linkedin-icon.svg';
 import Telegram from '../img/icon/telegram-icon.svg';
 import GitHub from '../img/icon/github-icon.svg';
@@ -59,26 +58,10 @@ export default function Contatcs() {
 
             <Box display='flex' alignItems='center' className='alignContacts'>
               <Box>
-                <img src={Gmail} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='' className='decorationNone'>
-                  <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    Gmail
-                  </Typography>
-                </Link>
-              </Box>
-            </Box>
-
-            <Box display='flex' alignItems='center' className='alignContacts'>
-              <Box>
                 <img src={WhatsApp} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <Link href='' className='decorationNone'>
+                <Link href='https://wa.me/5511992698039' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText
@@ -95,7 +78,7 @@ export default function Contatcs() {
                 <img src={Telegram} className='iconWH'></img>
               </Box>
               <Box className='distanceIcon'>
-                <Link href='' className='decorationNone'>
+                <Link href='https://t.me/BrennoDev' className='decorationNone'>
                   <Typography
                     variant='subtitle1'
                     className='fontText

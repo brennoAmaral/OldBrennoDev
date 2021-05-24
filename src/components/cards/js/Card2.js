@@ -1,6 +1,6 @@
 import {Box, Typography} from '@material-ui/core';
 import React from 'react';
-import MuiLogo from '../../img/logo/MUI.png';
+import MuiLogo from '../../img/logo/Mui.png';
 import '../css/CardsSkills.css';
 
 
@@ -15,7 +15,7 @@ export function Card2() {
           Material UI
         </Typography>
       </Box>
-      <Box>
+      <Box className='muiPadTop'>
         <img src={MuiLogo} className='muiWH' />
       </Box>
     </Box>
