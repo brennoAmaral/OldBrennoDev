@@ -21,7 +21,7 @@ export default function Services() {
           <Grid item md='6'>
 
             <Box>
-              <Box className="distance">
+              <Box className="imgPadding">
                 <img src={Developing} className="developingWH" />
               </Box>
               <Box>
@@ -43,7 +43,7 @@ export default function Services() {
 
           <Grid item md='6'>
             <Box>
-              <Box className="descriptionDistance">
+              <Box className="imgPadding">
                 <img src={Maintenance} className="maintenanceWH" />
               </Box>
               <Box>
@@ -66,10 +66,10 @@ export default function Services() {
 
           <Grid item xs='12' sm='12' md='12' lg='12' xl='12'>
             <Box>
-              <Box className="descriptionDistance">
+              <Box className="imgPadding">
                 <img src={Network} className="networkWH" />
               </Box>
-              <Box>
+              <Box className=''>
                 <Typography
                   align='center'
                   variant='subtitle1'

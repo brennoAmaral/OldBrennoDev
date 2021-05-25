@@ -6,7 +6,7 @@ import '../css/CardsCert.css';
 export default function CardCert1() {
   return (
     <Box>
-      <img src={DiplomaITB} className="paddingTopImgQualificacao" />
+      <img src={DiplomaITB} className="paddingTopImgQualificacao certSize" />
     </Box>
   );
 }

@@ -14,7 +14,7 @@ export default function Carousel() {
   return (
     <Box className='borderNone'>
       <Swiper
-        slidesPerView={1}
+        slidesPerView={2}
         spaceBetween={20}
         freeMode={false}
         pagination={{ 'clickable': true }}

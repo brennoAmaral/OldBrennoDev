@@ -19,8 +19,8 @@ import '../css/CarouselSkills.css';
 
 export default function Carousel() {
   return (
-    <Box className='borderNone '>
-      <Swiper slidesPerView={1} spaceBetween={20} freeMode={false}
+    <Box className='borderNone ' display={{ xl: 'none', md: 'none' }}>
+      <Swiper slidesPerView={1} spaceBetween={1} freeMode={false}
         pagination={{ 'clickable': true }}
         className="mySwiper smDisplayNone mdDisplayNone swiper1None">
 
@@ -54,7 +54,7 @@ export default function Carousel() {
       </Swiper>
 
 
-      <Swiper slidesPerView={2} spaceBetween={20} freeMode={false}
+      <Swiper slidesPerView={2} spaceBetween={1} freeMode={false}
         pagination={{ 'clickable': true }}
         className="mySwiper smDisplayNone swiper2None">
 
@@ -88,7 +88,7 @@ export default function Carousel() {
 
       </Swiper>
 
-      <Swiper slidesPerView={3} spaceBetween={20} freeMode={false}
+      <Swiper slidesPerView={3} spaceBetween={1} freeMode={false}
         pagination={{ 'clickable': true }}
         className="mySwiper smDisplayNone swiper3None">
 

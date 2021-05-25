@@ -6,5 +6,31 @@
 }
 
 .paddingTopImgQualificacao{
-  padding-top: 30px;
+  padding-top: 25px;
+}
+
+
+@media (max-width: 600px) {
+  .certSize{
+    width: 300px!important;;
+  }
+
+
+}
+
+
+@media (min-width: 601px) and (max-width:960px)  {
+  .certSize{
+    height: 390px!important;
+  }
+}
+@media (min-width: 961px) and (max-width:1280px)  {
+  .certSize{
+    width: 400px!important;
+  }
+}
+@media (min-width: 1280px) {
+  .certSize{
+    width: 400px!important;
+  }
 }

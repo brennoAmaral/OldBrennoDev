@@ -90,16 +90,16 @@ html{
 font-family: var(--font-secundary) !important;
 font-weight: 700 !important;
 }
-
+.avatarWH{
+  width: var(--size-avatar)!important ;
+  height: var(--size-avatar)!important ;
+}
 @media (max-width: 768px) { 
     
     .open{
         transform: translateX(300px);
     }
-    .avatarWH{
-        width: var(--size-avatar)!important ;
-        height: var(--size-avatar)!important ;
-    }
+    
 }
 
 @media (min-width: 769px) { 

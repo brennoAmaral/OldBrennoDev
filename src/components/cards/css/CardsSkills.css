@@ -1,7 +1,7 @@
 
 .cardStyle box img{
   margin-right: auto ;
-  margin-left: auto; 
+  margin-left: auto;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -9,41 +9,9 @@
 .titleDistance{
   padding: 5px 0 5px 0;
 }
-.reactWH{
-  width: 225px !important;
-  height: 260px !important;
-}
-
-.muiPadTop{
-  padding-top: 25px;
-}
-.jsWH{
-    width: 240px!important;
-    height: 266px !important;
-    
-}
-.cssWH{
-  width: 230px!important;
-  height: 264px !important;
-  
-}
-.htmlWH{
-  width: 240px!important;
-  height: 265px !important;
-  
-}
-.nodeWH{
-  width: 230px !important;
-  height: 260px !important;
-}
-.figmaWH{
-  width: 260px!important;
-  height: 260px !important;
-}
 
 
-
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
 
   .cardStyle{
     width: 300px;
@@ -52,16 +20,49 @@
     text-align: center;
     border-radius: 5%;
   }
-  
+
   .muiWH{
     width: 270px !important;
    height: 210px !important;
   }
 
+  .figmaWH{
+    width: 260px!important;
+   height: 260px !important;
+  }
+  
+.reactWH{
+  width: 225px !important;
+  height: 260px !important;
+}
+
+.muiPadTop{
+   padding-top: 25px;
+}
+.jsWH{
+    width: 240px!important;
+    height: 266px !important;
+
+}
+.cssWH{
+  width: 230px!important;
+  height: 264px !important;
+
+}
+.htmlWH{
+  width: 240px!important;
+  height: 265px !important;
+
+}
+.nodeWH{
+  width: 230px !important;
+  height: 260px !important;
+}
+
 }
 
 
-@media (min-width: 601px) and (max-width:960px)  { 
+@media (min-width: 601px) and (max-width:960px)  {
   .cardStyle{
     width: 250px;
     height: 315px;
@@ -73,13 +74,112 @@
     width: 220px !important;
     height: 180px !important;
   }
+  .figmaWH{
+    width: 240px!important;
+   height: 240px !important;
+  }
+  
+.reactWH{
+  width: 225px !important;
+  height: 260px !important;
+}
+
+.muiPadTop{
+   padding-top: 25px;
+}
+.jsWH{
+    width: 240px!important;
+    height: 266px !important;
 
 }
-@media (min-width: 961px) and (max-width:1280px)  { 
-    
+.cssWH{
+  width: 230px!important;
+  height: 264px !important;
 
 }
-@media (min-width: 1280px) and (max-width:1920px)  { 
-    
+.htmlWH{
+  width: 240px!important;
+  height: 265px !important;
+
+}
+.nodeWH{
+  width: 230px !important;
+  height: 260px !important;
+}
+
+}
+@media (min-width: 961px) and (max-width:1280px)  {
+  .ercardStyle{
+    width: 220px;
+    height: 280px;
+    background-color: var(--color-primary-gray) ;
+    text-align: cent;
+    border-radius: 5%;
+    margin-bottom: 20px;
+  }
+  .muiWH{
+    padding-top: 40px;
+    height: 165px !important;
+  }
+  .figmaWH{
+    height: 200px!important;
+  }
+  .reactWH{
+    height: 230px !important;
+  }
+  .jsWH{
+    height: 210px !important;
+  
+  }
+  .cssWH{
+    height: 210px !important;
+  
+  }
+  .htmlWH{
+    width: 190px!important;
+  
+  }
+  .nodeWH{
+    padding-top:20px;
+    height: 200px !important;
+  } 
+
+}
+@media (min-width: 1280px) {
+  .cardStyle{
+    width: 300px;
+    height: 290px;
+    background-color: var(--color-primary-gray) ;
+    text-align: center;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  .muiWH{
+    padding-top: 40px;
+    height: 165px !important;
+  }
+  .figmaWH{
+    height: 200px!important;
+  }
+  .reactWH{
+    height: 230px !important;
+  }
+  .jsWH{
+      height: 223px !important;
+  
+  }
+  .cssWH{
+    height: 230px !important;
+  
+  }
+  .htmlWH{
+    width: 205px!important;
+  
+  }
+  .nodeWH{
+    padding-top:20px;
+    height: 200px !important;
+  } 
 
 }
