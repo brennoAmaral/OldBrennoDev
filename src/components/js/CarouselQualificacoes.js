@@ -13,21 +13,42 @@ import '../css/CarouselQualificacoes.css';
 export default function Carousel() {
   return (
     <Box className='borderNone'>
-      <Swiper
-        slidesPerView={2}
-        spaceBetween={20}
-        freeMode={false}
-        pagination={{ 'clickable': true }}
-        className="mySwiper">
+      <Box className=''>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={20}
+          freeMode={false}
+          pagination={{ 'clickable': true }}
+          className="mySwiper swiper1None">
 
-        <SwiperSlide>
-          <CardCert1 />
-        </SwiperSlide>
+          <SwiperSlide>
+            <CardCert1 />
+          </SwiperSlide>
 
-        <SwiperSlide >
-          <CardCert2 />
-        </SwiperSlide>
-      </Swiper>
+          <SwiperSlide >
+            <CardCert2 />
+          </SwiperSlide>
+
+        </Swiper>
+      </Box>
+
+      <Box className=''>
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={20}
+          freeMode={false}
+          pagination={{ 'clickable': true }}
+          className="mySwiper swiper2None">
+
+          <SwiperSlide>
+            <CardCert1 />
+          </SwiperSlide>
+
+          <SwiperSlide >
+            <CardCert2 />
+          </SwiperSlide>
+        </Swiper>
+      </Box>
     </Box>
   );
 }
