@@ -17,7 +17,8 @@ export default function AboutMe() {
         </Typography>
         <Typography
           variant='subtitle1'
-          className="paragraph
+          className="
+            paragraph
             fontText
             jcText
             colorGrayPrimary

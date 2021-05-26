@@ -19,7 +19,7 @@ export default function Carousel() {
           spaceBetween={20}
           freeMode={false}
           pagination={{ 'clickable': true }}
-          className="mySwiper swiper1None">
+          className="mySwiper slide1None">
 
           <SwiperSlide>
             <CardCert1 />
@@ -35,10 +35,10 @@ export default function Carousel() {
       <Box className=''>
         <Swiper
           slidesPerView={2}
-          spaceBetween={20}
+          spaceBetween={1}
           freeMode={false}
           pagination={{ 'clickable': true }}
-          className="mySwiper swiper2None">
+          className="mySwiper slide2None">
 
           <SwiperSlide>
             <CardCert1 />

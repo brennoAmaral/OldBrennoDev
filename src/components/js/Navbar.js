@@ -17,17 +17,23 @@ export default function NavBar(props) {
   return (
 
     <AppBar position="static" className="bgNavColor" bgColor={ green } >
-      <Toolbar style={{ justifyContent: 'space-between' }} className="bgGreen">
-        <Box paddingRight={5}></Box>
+      <Toolbar style={{ justifyContent: 'space-between' }}
+        className="bgGreen">
+        <Box paddingRight={5} className='buttonNone'></Box>
+
+        {/* as box com class title center servem para manter o
+      brenno dev alinhado ja que o justify content está como space beetween */}
+        <Box paddingRight={5} className='titleCenter'></Box>
         <Typography
           variant="h4"
           anchorOrigin={{ horizontal: 'center' }}
           className="fontTopic colorGrayPrimary ">
           Brenno(Dev);
         </Typography>
+        <Box paddingRight={5} className='titleCenter'></Box>
         <IconButton edge="end" color="inherit" onClick={() => {
           onOpen(true);
-        }} className="colorGrayPrimary colorGrayPrimary" >
+        }} className="colorGrayPrimary colorGrayPrimary buttonNone" >
           <MenuIcon style={{ fontSize: '37' }} />
         </IconButton>
       </Toolbar>

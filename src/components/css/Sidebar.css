@@ -4,7 +4,7 @@
 .MuiTypography-body1 {
   color: var(--color-green);
 }
-.MuiListItem-gutters {
+.MuiListItem-gutters h5 .buttonSideBar{
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 16px!important;
@@ -21,10 +21,19 @@
   color:var(--color-green)!important;
 
 }
-@media (max-width: 768px) { 
+.MuiDrawer-paperAnchorLeft {
+  left: 0;
+  right: auto;
+  position: relative!important;
+  width: 100%;
+}
+
+@media (max-width: 960px) { 
   
 }
-@media (min-width: 769px) { 
-    
+@media (min-width: 961px) { 
+    sideBarNone{
+      display: none;
+    }
 
 }

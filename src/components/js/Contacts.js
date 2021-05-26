@@ -1,12 +1,22 @@
-import { Box,
-  Card, CardContent, Grid, Link, Typography } from '@material-ui/core';
+import {
+  Card,
+  CardContent,
+  Grid,
+  List,
+  ListItem,
+  ListSubheader,
+  Typography,
+} from '@material-ui/core';
 import React from 'react';
 import Linkedin from '../img/icon/linkedin-icon.svg';
 import Telegram from '../img/icon/telegram-icon.svg';
 import GitHub from '../img/icon/github-icon.svg';
 import WhatsApp from '../img/icon/whatsapp-icon.svg';
+import Gmail from '../img/icon/gmail-icon.svg';
 import Freelas99 from '../img/icon/99freelas-icon.svg';
 import Workana from '../img/icon/workana-icon.svg';
+import openLink from '../../utils/openLink';
+
 import '../css/Contacts.css';
 
 export default function Contatcs() {
@@ -15,121 +25,96 @@ export default function Contatcs() {
       <CardContent>
 
         <Grid container>
-          <Grid item xs='12' sm='6' md='6' lg='6' xl='6' >
-            <Box>
-              <Typography
-                className='fontTopic colorGreen'
-                variant='h4'>
-                Contatos
-              </Typography>
-            </Box>
+          <Grid item xs="12" sm="6" md="6" lg="6" xl="6" >
 
-            <Box display='flex' alignItems='center' className='alignContacts'>
-              <Box>
-                <img src={Linkedin} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='https://www.linkedin.com/in/brenno-a-9822a3120/' className='decorationNone'>
+            <List
+              component="nav"
+              aria-labelledby="nested-list-subheader"
+              subheader={
+                <ListSubheader component="div" id="nested-list-subheader">
                   <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    Linkedin
+                    className="fontTopic colorGreen"
+                    variant="h4">
+                    Contatos
                   </Typography>
-                </Link>
-              </Box>
-            </Box>
+                </ListSubheader>
+              }
+            >
+              <ListItem className="paddingZero" button onClick={() => openLink('https://www.linkedin.com/in/brenno-a-9822a3120/', '_blank')}>
+                <img src={Linkedin} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen ">
+                  Linkedin
+                </Typography>
+              </ListItem>
 
-            <Box display='flex' alignItems='center' className='alignContacts'>
-              <Box>
-                <img src={GitHub} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='https://github.com/brennoAmaral' className='decorationNone'>
-                  <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    GitHub
-                  </Typography>
-                </Link>
-              </Box>
-            </Box>
+              <ListItem className="paddingZero" button onClick={() => openLink('https://github.com/brennoAmaral', '_blank')}>
+                <img src={GitHub} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen ">
+                  GitHub
+                </Typography>
+              </ListItem>
 
-            <Box display='flex' alignItems='center' className='alignContacts'>
-              <Box>
-                <img src={WhatsApp} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='https://wa.me/5511992698039' className='decorationNone'>
-                  <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    WhatApp
-                  </Typography>
-                </Link>
-              </Box>
-            </Box>
+              <ListItem className="paddingZero" button onClink={() => openLink('mailto://brenno.amaral.marques@gmail.com', '_blank')}>
+                <img src={Gmail} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen ">
+                  Gmail
+                </Typography>
+              </ListItem>
 
-            <Box display='flex' alignItems='center'
-              className='alignContacts'>
-              <Box>
-                <img src={Telegram} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='https://t.me/BrennoDev' className='decorationNone'>
-                  <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    Telegram
-                  </Typography>
-                </Link>
-              </Box>
-            </Box>
+              <ListItem className="paddingZero" button onClink={() => openLink('https://wa.me/5511992698039', '_blank')}>
+                <img src={Telegram} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen ">
+                  Telegram
+                </Typography>
+              </ListItem>
+
+              <ListItem className="paddingZero" button onClink={() => openLink('https://t.me/BrennoDev', '_blank')}>
+                <img src={WhatsApp} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen ">
+                  WhatsApp
+                </Typography>
+              </ListItem>
+            </List>
           </Grid>
 
-          <Grid item xs='12' sm='6' md='6' lg='6' xl='6'>
-            <Box>
-              <Typography
-                className='fontTopic colorGreen'
-                variant='h4'>
-                Freelas
-              </Typography>
-            </Box>
+          <Grid item xs="12" sm="6" md="6" lg="6" xl="6">
 
-            <Box display='flex' alignItems='center' className='alignContacts'>
-              <Box>
-                <img src={Freelas99} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='' className='decorationNone'>
+            <List
+              component="nav"
+              aria-labelledby="nested-list-subheader"
+              subheader={
+                <ListSubheader component="div" id="nested-list-subheader">
                   <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    99 Freelas
+                    className="fontTopic colorGreen "
+                    variant="h4">
+                    Freelas
                   </Typography>
-                </Link>
-              </Box>
-            </Box>
+                </ListSubheader>
+              }>
 
-            <Box display='flex' alignItems='center' className='alignContacts'>
-              <Box>
-                <img src={Workana} className='iconWH'></img>
-              </Box>
-              <Box className='distanceIcon'>
-                <Link href='' className='decorationNone'>
-                  <Typography
-                    variant='subtitle1'
-                    className='fontText
-                    colorGreen'>
-                    Workanas
-                  </Typography>
-                </Link>
-              </Box>
-            </Box>
+              <ListItem className="paddingZero"
+                button onClick={() => openLink('', '_blank')}>
+                <img src={Freelas99} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen paddingZero">
+                  99Freelas
+                </Typography>
+              </ListItem>
+
+              <ListItem className="paddingZero"
+                button onClick={() => openLink('', '_blank')}>
+                <img src={Workana} className="iconWH" />
+                <Typography variant='subtitle1'
+                  className="fontText colorGreen paddingZero">
+                  Workana
+                </Typography>
+              </ListItem>
+            </List>
           </Grid>
         </Grid>
       </CardContent>

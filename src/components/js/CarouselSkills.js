@@ -20,7 +20,7 @@ import '../css/CarouselSkills.css';
 export default function Carousel() {
   return (
     <Box className='borderNone ' display={{ xl: 'none', md: 'none' }}>
-      <Swiper slidesPerView={1} spaceBetween={1} freeMode={false}
+      <Swiper slidesPerView={1} spaceBetween={2} freeMode={false}
         pagination={{ 'clickable': true }}
         className="mySwiper smDisplayNone mdDisplayNone swiper1None">
 

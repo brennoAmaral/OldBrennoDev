@@ -1,0 +1,10 @@
+@media (max-width: 960px){
+  .titleCenter{
+    display: none!important;
+  }
+}
+@media (min-width:961px){
+  .buttonNone{
+    display:none!important;
+  }
+}

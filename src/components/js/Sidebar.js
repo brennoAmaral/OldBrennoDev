@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Drawer,
   List,
@@ -7,9 +7,10 @@ import {
   ListItem,
   Link,
   Typography,
+  Box,
 } from '@material-ui/core';
 import PersonIcon from '@material-ui/icons/Person';
-
+import { off, on } from '../../utils/resize';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
@@ -18,14 +19,32 @@ import TimelineIcon from '@material-ui/icons/Timeline';
 import PropTypes from 'prop-types';
 import '../css/Sidebar.css';
 
+
 export default function SideBar(props) {
   const { onClose, open } = props;
+  const [anchor, setAnchor] = useState('rigth');
+  const [variant, setVariant] = useState('temporary');
+
+  useEffect(() => {
+    function breakpoint(value) {
+      console.log('breakpoint: ', value);
+      if (['md', 'lg', 'xl'].includes(value)) {
+        setAnchor('left');
+        setVariant('permanent');
+      } else {
+        setAnchor('right');
+        setVariant('temporary');
+      }
+    }
+    on(breakpoint);
+    return () => off(breakpoint);
+  }, []);
 
   return (
-    <div >
-      <Drawer anchor="right" open={open} onClose={() => {
+    <Box>
+      <Drawer anchor={anchor} variant={variant} open={open} onClose={() => {
         onClose(false);
-      }} className="colorGrayPrimary" >
+      }} className="colorGrayPrimary sideBarNone">
 
 
         <List component="nav" aria-label="main mailbox folders" >
@@ -37,7 +56,8 @@ export default function SideBar(props) {
 
             <Link href='#idaBoutMe' onClick={() => onClose(false)}>
               <ListItemText>
-                <Typography variant='h5' className="colorGreen fontTopic">
+                <Typography variant='h5'
+                  className="colorGreen fontTopic buttonSideBar">
                   About Me
                 </Typography>
               </ListItemText>
@@ -51,7 +71,8 @@ export default function SideBar(props) {
 
             <Link href='#idDevSkills' onClick={() => onClose(false)}>
               <ListItemText>
-                <Typography variant='h5' className="colorGreen fontTopic">
+                <Typography variant='h5'
+                  className="colorGreen fontTopic buttonSideBar">
                   Dev Skills
                 </Typography>
               </ListItemText>
@@ -67,7 +88,8 @@ export default function SideBar(props) {
 
             <Link href='#idServices' onClick={() => onClose(false)}>
               <ListItemText>
-                <Typography variant='h6' className="colorGreen fontTopic">
+                <Typography variant='h5'
+                  className="colorGreen fontTopic buttonSideBar">
                   Serviços
                 </Typography>
               </ListItemText>
@@ -80,7 +102,8 @@ export default function SideBar(props) {
             </ListItemIcon>
             <Link href='#idExperience' onClick={() => onClose(false)}>
               <ListItemText>
-                <Typography variant='h6' className="colorGreen fontTopic">
+                <Typography variant='h5'
+                  className="colorGreen fontTopic buttonSideBar">
                   Experiências
                 </Typography>
               </ListItemText>
@@ -93,7 +116,8 @@ export default function SideBar(props) {
             </ListItemIcon>
             <Link href='#idQualificacoes' onClick={() => onClose(false)}>
               <ListItemText>
-                <Typography variant='h6' className="colorGreen fontTopic">
+                <Typography variant='h5'
+                  className="colorGreen fontTopic buttonSideBar">
                   Certificados
                 </Typography>
               </ListItemText>
@@ -106,18 +130,18 @@ export default function SideBar(props) {
             </ListItemIcon>
             <Link href='#idContacs' onClick={() => onClose(false)}>
               <ListItemText>
-                <Typography variant='h6' className="colorGreen fontTopic">
+                <Typography variant='h5'
+                  className="colorGreen fontTopic buttonSideBar">
                   Contatos
                 </Typography>
               </ListItemText>
             </Link>
           </ListItem>
-
         </List>
-
-
       </Drawer>
-    </div>
+
+
+    </Box>
   );
 }
 

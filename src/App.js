@@ -7,7 +7,7 @@ import DevSkills from '../src/components/js/DevSkills';
 import Services from './components/js/Services';
 import Experience from './components/js/Experience';
 import Qualificacoes from './components/js/Qualificacoes';
-import Contatcs from './components/js/Contacts';
+import { Grid } from '@material-ui/core';
 import './App.css';
 import Footer from './components/js/Footer.js';
 
@@ -16,23 +16,28 @@ export default function App() {
 
 
   return (
-    <>
+    <Grid container>
+      <Grid item md='4' lg='2' xl='2'>
+        <Sidebar onClose={(data) => {
+          setOpen(data);
+        }} open={open} />
+      </Grid>
 
-      <Navbar onOpen={(data) => {
-        setOpen(data);
-      }} />
-      <Sidebar onClose={(data) => {
-        setOpen(data);
-      }} open={open} />
-      <Perfil />
-      <AboutMe />
-      <DevSkills/>
-      <Services />
-      <Experience />
-      <Qualificacoes />
-      <Contatcs />
-      <Footer/>
+      <Grid item md='8' lg='10' xl='10'>
+        <Navbar onOpen={(data) => {
+          setOpen(data);
+        }} />
 
-    </>
+        <Perfil />
+        <AboutMe />
+        <DevSkills />
+        <Services />
+        <Experience />
+        <Qualificacoes />
+        <Footer />
+
+      </Grid>
+    </Grid>
+
   );
 }
