@@ -1,6 +1,9 @@
-import {Box, Typography} from '@material-ui/core';
+import {
+  Box,
+  Typography,
+} from '@material-ui/core';
 import React from 'react';
-import JsLogo from '../../img/logo/js.png';
+import NodeLogo from '../../img/logo/nodejs.png';
 import '../css/CardsSkills.css';
 
 
@@ -12,14 +15,15 @@ export function Card3() {
           className='titleDistance
           fontTopic
           colorGreen'>
-          JavaScript
+          Node.js
         </Typography>
       </Box>
       <Box>
-        <img src={JsLogo} className='jsWH' />
+        <img src={NodeLogo} className='nodeWH' />
       </Box>
     </Box>
   );
 }
 
 export default Card3;
+

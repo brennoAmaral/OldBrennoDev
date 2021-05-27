@@ -3,7 +3,7 @@ import {
   Typography,
 } from '@material-ui/core';
 import React from 'react';
-import FigmaLogo from '../../img/logo/figma.png';
+import CssLogo from '../../img/logo/css3.png';
 import '../css/CardsSkills.css';
 
 
@@ -15,15 +15,15 @@ export function Card7() {
           className='titleDistance
           fontTopic
           colorGreen'>
-          Figma
+          CSS 3
         </Typography>
       </Box>
       <Box>
-        <img src={FigmaLogo} className='figmaWH' />
+        <img src={CssLogo} className='cssWH' />
       </Box>
-
     </Box>
   );
 }
 
 export default Card7;
+

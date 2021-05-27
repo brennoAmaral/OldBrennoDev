@@ -1,29 +1,27 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import Navbar from './components/js/Navbar.js';
-import Sidebar from './components/js/Sidebar.js';
 import Perfil from './components/js/Perfil';
 import AboutMe from './components/js/AboutMe';
 import DevSkills from '../src/components/js/DevSkills';
 import Services from './components/js/Services';
 import Experience from './components/js/Experience';
 import Qualificacoes from './components/js/Qualificacoes';
-import { Grid } from '@material-ui/core';
-import './App.css';
 import Footer from './components/js/Footer.js';
+import SideBar from './components/js/Sidebar.js';
+import { Box } from '@material-ui/core';
+import './App.css';
 
 export default function App() {
   const [open, setOpen] = useState(false);
 
 
   return (
-    <Grid container>
-      <Grid item md='4' lg='2' xl='2'>
-        <Sidebar onClose={(data) => {
-          setOpen(data);
-        }} open={open} />
-      </Grid>
-
-      <Grid item md='8' lg='10' xl='10'>
+    <Box display='flex'>
+      <SideBar onClose={(data) => {
+        setOpen(data);
+      }} open={open}
+      classesName="sideBarStyle"/>
+      <Box className='overflowxHidden'>
         <Navbar onOpen={(data) => {
           setOpen(data);
         }} />
@@ -35,9 +33,10 @@ export default function App() {
         <Experience />
         <Qualificacoes />
         <Footer />
+      </Box>
 
-      </Grid>
-    </Grid>
+    </Box>
 
   );
-}
+};
+

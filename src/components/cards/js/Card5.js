@@ -1,9 +1,6 @@
-import {
-  Box,
-  Typography,
-} from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 import React from 'react';
-import CssLogo from '../../img/logo/css3.png';
+import JsLogo from '../../img/logo/js.png';
 import '../css/CardsSkills.css';
 
 
@@ -15,11 +12,11 @@ export function Card5() {
           className='titleDistance
           fontTopic
           colorGreen'>
-          CSS 3
+          JavaScript
         </Typography>
       </Box>
       <Box>
-        <img src={CssLogo} className='cssWH' />
+        <img src={JsLogo} className='jsWH' />
       </Box>
     </Box>
   );

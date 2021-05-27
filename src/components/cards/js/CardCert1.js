@@ -3,10 +3,12 @@ import DiplomaITB from '../../img/qualificações/diplomaITB.png';
 import { Box } from '@material-ui/core';
 import '../css/CardsCert.css';
 
-export default function CardCert1() {
+export function CardCert1() {
   return (
     <Box>
       <img src={DiplomaITB} className="paddingTopImgQualificacao certSize" />
     </Box>
   );
 }
+
+export default CardCert1;

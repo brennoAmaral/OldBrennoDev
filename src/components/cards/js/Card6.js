@@ -3,7 +3,7 @@ import {
   Typography,
 } from '@material-ui/core';
 import React from 'react';
-import NodeLogo from '../../img/logo/nodejs.png';
+import HtmlLogo from '../../img/logo/html.png';
 import '../css/CardsSkills.css';
 
 
@@ -15,11 +15,11 @@ export function Card6() {
           className='titleDistance
           fontTopic
           colorGreen'>
-          Node.js
+          HTML 5
         </Typography>
       </Box>
       <Box>
-        <img src={NodeLogo} className='nodeWH' />
+        <img src={HtmlLogo} className='htmlWH' />
       </Box>
     </Box>
   );

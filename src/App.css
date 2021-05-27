@@ -8,6 +8,7 @@
     --font-secundary: 'roboto', monospace;
     --size-avatar:200px;
     --swiper-theme-color: #62E093 !important;
+    --width-drawer: 17rem;
 }
 html{
   scroll-behavior: smooth;
@@ -31,6 +32,9 @@ html{
 }
 .bgGrayTertiary{
     background-color: var(--color-footer-gray)!important;
+}
+.overflowxHidden{
+  overflow-x: hidden !important;
 }
 
 .decorationNone{
@@ -93,4 +97,10 @@ font-weight: 700 !important;
 .avatarWH{
   width: var(--size-avatar)!important ;
   height: var(--size-avatar)!important ;
+}
+@media (min-width: 961px) {
+  
+  .marginDrawer{
+    margin-left: var(--width-drawer);
+  }
 }

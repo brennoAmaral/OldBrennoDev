@@ -6,15 +6,7 @@ import SwiperCore, {
   Pagination,
 } from 'swiper/core';
 SwiperCore.use([Pagination]);
-import {
-  Card1,
-  Card2,
-  Card3,
-  Card4,
-  Card5,
-  Card6,
-  Card7,
-} from '../cards/js/';
+import { Card1, Card2, Card3, Card4, Card5, Card6, Card7} from '../cards/js';
 import '../css/CarouselSkills.css';
 
 export default function Carousel() {

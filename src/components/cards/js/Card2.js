@@ -1,6 +1,6 @@
-import {Box, Typography} from '@material-ui/core';
+import { Box, Typography } from '@material-ui/core';
 import React from 'react';
-import MuiLogo from '../../img/logo/Mui.png';
+import MuiLogo from '../../img/logo/MUI.png';
 import '../css/CardsSkills.css';
 
 

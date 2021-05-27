@@ -4,7 +4,7 @@ import JsCursoEmVideo from '../../img/qualificações/jsCursoEmVideo.png';
 import '../css/CardsCert.css';
 
 
-export default function CardCert2() {
+export function CardCert2() {
   return (
     <Box>
       <img src={JsCursoEmVideo}
@@ -12,3 +12,5 @@ export default function CardCert2() {
     </Box>
   );
 }
+
+export default CardCert2;

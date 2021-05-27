@@ -9,13 +9,16 @@
 .titleDistance{
   padding: 5px 0 5px 0;
 }
-
+div.cardStyle{
+  margin-right: auto;
+  margin-left: auto;
+}
 
 @media (max-width: 600px) {
 
   .cardStyle{
     width: 300px;
-    height: 315px;
+    height: 335px;
     background-color: var(--color-primary-gray) ;
     text-align: center;
     border-radius: 5%;
@@ -110,7 +113,7 @@
 }
 @media (min-width: 961px) and (max-width:1280px)  {
   .cardStyle{
-    width: 220px;
+    width: 210px;
     height: 280px;
     background-color: var(--color-primary-gray);
     text-align: center;
@@ -119,13 +122,14 @@
   }
   .muiWH{
     padding-top: 40px;
-    height: 165px !important;
+    height: 150px !important;
   }
   .figmaWH{
+    padding-top: 10px;
     height: 200px!important;
   }
   .reactWH{
-    height: 230px !important;
+    height: 210px !important;
   }
   .jsWH{
     height: 210px !important;
@@ -145,10 +149,10 @@
   } 
 
 }
-@media (min-width: 1281px) {
+@media (min-width:1281px) and ( max-width:1629px){
   .cardStyle{
-    width: 300px;
-    height: 290px;
+    width: 240px;
+    height: 300px;
     background-color: var(--color-primary-gray) ;
     text-align: center;
     border-radius: 5%;
@@ -157,16 +161,16 @@
   }
   .muiWH{
     padding-top: 40px;
-    height: 165px !important;
+    height: 170px !important;
   }
   .figmaWH{
-    height: 200px!important;
+    height: 230px!important;
   }
   .reactWH{
     height: 230px !important;
   }
   .jsWH{
-      height: 223px !important;
+      height: 230px !important;
   
   }
   .cssWH{
@@ -174,12 +178,89 @@
   
   }
   .htmlWH{
-    width: 205px!important;
+    width: 212px!important;
+  
+  }
+  .nodeWH{
+    padding-top:10px;
+    height: 220px !important;
+  } 
+
+}
+@media (min-width:1630px) and ( max-width:1980px){
+  .cardStyle{
+    width: 270px;
+    height: 300px;
+    background-color: var(--color-primary-gray) ;
+    text-align: center;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  .muiWH{
+    padding-top: 30px;
+    height: 190px !important;
+  }
+  .figmaWH{
+    height: 230px!important;
+  }
+  .reactWH{
+    height: 230px !important;
+  }
+  .jsWH{
+      height: 230px !important;
+  
+  }
+  .cssWH{
+    height: 230px !important;
+  
+  }
+  .htmlWH{
+    width: 212px!important;
+  
+  }
+  .nodeWH{
+    padding-top:10px;
+    height: 220px !important;
+  } 
+
+}
+
+@media (min-width: 1981px) {
+  .cardStyle{
+    width: 350px;
+    height: 350px;
+    background-color: var(--color-primary-gray) ;
+    text-align: center;
+    border-radius: 5%;
+    margin-bottom: 20px;
+    align-content: center;
+  }
+  .muiWH{
+    padding-top: 20px;
+    height: 240px !important;
+  }
+  .figmaWH{
+    height: 270px!important;
+  }
+  .reactWH{
+    height: 270px !important;
+  }
+  .jsWH{
+      height: 270px !important;
+  
+  }
+  .cssWH{
+    height: 270px !important;
+  
+  }
+  .htmlWH{
+    width: 250px!important;
   
   }
   .nodeWH{
     padding-top:20px;
-    height: 200px !important;
+    height: 250px !important;
   } 
 
 }
