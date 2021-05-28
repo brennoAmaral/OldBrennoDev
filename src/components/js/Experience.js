@@ -25,7 +25,7 @@ export default function Experience() {
 
 
         <Grid container>
-          <Grid Item xs='12' sm='12' md='12' lg='12' xl='12'>
+          <Grid>
             <Card className="cardWH">
               <CardActionArea href="https://www.base1it.com/">
                 <CardMedia
@@ -39,7 +39,7 @@ export default function Experience() {
                 <CardContent>
                   <Typography
                     variant='subtitle1'
-                    className="fontExp colorGrayPrimary"
+                    className="fontText colorGrayPrimary"
                     component="p">
                     Base1 06/2019 - 05/2021
                   </Typography>

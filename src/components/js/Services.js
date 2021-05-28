@@ -18,7 +18,7 @@ export default function Services() {
 
 
         <Grid container>
-          <Grid item md='6'>
+          <Grid item md={6}>
 
             <Box>
               <Box className="imgPadding">
@@ -41,7 +41,7 @@ export default function Services() {
           </Grid>
 
 
-          <Grid item md='6'>
+          <Grid item md={6}>
             <Box>
               <Box className="imgPadding">
                 <img src={Maintenance} className="maintenanceWH" />
@@ -64,7 +64,7 @@ export default function Services() {
             </Box>
           </Grid>
 
-          <Grid item xs='12' sm='12' md='12' lg='12' xl='12'>
+          <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
             <Box>
               <Box className="imgPadding">
                 <img src={Network} className="networkWH" />

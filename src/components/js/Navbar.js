@@ -7,7 +7,6 @@ import {
   Box} from '@material-ui/core';
 import { Menu as MenuIcon } from '@material-ui/icons';
 import '../css/Navbar.css';
-import { green } from '@material-ui/core/colors';
 import PropTypes from 'prop-types';
 
 export default function NavBar(props) {
@@ -16,7 +15,7 @@ export default function NavBar(props) {
 
   return (
 
-    <AppBar position="static" className="bgNavColor" bgColor={ green } >
+    <AppBar position="static" className="bgNavColor">
       <Toolbar style={{ justifyContent: 'space-between' }}
         className="bgGreen">
         <Box paddingRight={5} className='buttonNone'></Box>
@@ -26,7 +25,6 @@ export default function NavBar(props) {
         <Box paddingRight={5} className='titleCenter'></Box>
         <Typography
           variant="h4"
-          anchorOrigin={{ horizontal: 'center' }}
           className="fontTopic colorGrayPrimary ">
           Brenno(Dev);
         </Typography>

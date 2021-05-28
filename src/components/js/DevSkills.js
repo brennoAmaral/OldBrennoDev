@@ -22,26 +22,26 @@ export default function DevSkills() {
         </Box>
         <Box display={{ xs: 'none', md: 'block' }}
           width="100%">
-          <Grid container clas="alignGrid">
-            <Grid item md="4" lg="3" xl="3">
+          <Grid container className="alignGrid">
+            <Grid item md={4} lg={3} xl={3}>
               <Card1/>
             </Grid>
-            <Grid item md="4" lg="3" xl="3">
+            <Grid item md={4} lg={3} xl={3}>
               <Card2 />
             </Grid>
-            <Grid item md="4" lg="3" xl="3">
+            <Grid item md={4} lg={3} xl={3}>
               <Card3 />
             </Grid>
-            <Grid item md="4" lg="3" xl="3">
+            <Grid item md={4} lg={3} xl={3}>
               <Card4 />
             </Grid>
-            <Grid item md="4" lg="4" xl="4">
+            <Grid item md={4} lg={4} xl={4}>
               <Card5 />
             </Grid>
-            <Grid item md="4" lg="4" xl="4">
+            <Grid item md={4} lg={4} xl={4}>
               <Card6 />
             </Grid>
-            <Grid item md="12" lg="4" xl="4">
+            <Grid item md={12} lg={4} xl={4}>
               <Card7 />
             </Grid>
           </Grid>

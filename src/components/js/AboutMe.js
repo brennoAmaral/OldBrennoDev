@@ -24,7 +24,11 @@ export default function AboutMe() {
             colorGrayPrimary
             paragraph">
             Estudante de Ti começando carreira de desenvolvimento
-            de software. Amo desafios lógicos e aprender novas tecnologias.
+            de software. Cursei técnico de suporte e manutenção
+            para informática no ITB(Instituto Técnológico de barueri) e
+            dois semestres de análise e desenvolvimento de sistema na
+            instituição FIAP(Faculdade de Informática e Administração Paulista).
+             Amo desafios lógicos e aprender novas técnologias.
             Possuo conhecimento diversificado na área de TI devido
             minha formação.
         </Typography>

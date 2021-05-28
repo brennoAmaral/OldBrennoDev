@@ -85,21 +85,62 @@ html{
   height: 300px;
 }
 
-.fontTopic{
-  font-family: var(--font-primary) !important;
-  font-weight: 700 !important;
-}
-
-.fontText{
-font-family: var(--font-secundary) !important;
-font-weight: 700 !important;
-}
 .avatarWH{
   width: var(--size-avatar)!important ;
   height: var(--size-avatar)!important ;
 }
-@media (min-width: 961px) {
+@media (min-width: 0px) and (max-width: 600px){
+  .fontTopic{
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+    font-size: 12;
+  }
   
+  .fontText{
+  font-family: var(--font-secundary) !important;
+  font-weight: 700 !important;
+  }
+}
+@media (min-width: 961px) and (max-width: 1080px){
+  
+  .fontTopic{
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+  }
+
+  .fontText{
+    font-family: var(--font-secundary) !important;
+    font-weight: 700 !important;
+  }
+  .marginDrawer{
+    margin-left: var(--width-drawer);
+  }
+}
+@media (min-width: 1081px) and (max-width: 1920px) {
+  
+  .fontTopic{
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+  }
+  .fontText{
+    font-family: var(--font-secundary) !important;
+    font-weight: 700 !important;
+  }
+  .marginDrawer{
+    margin-left: var(--width-drawer);
+  }
+}
+@media (min-width: 1921px) {
+  
+  .fontTopic{
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+    font-size: 12pt!important;
+  }
+  .fontText{
+    font-family: var(--font-secundary) !important;
+    font-weight: 700 !important;
+  }
   .marginDrawer{
     margin-left: var(--width-drawer);
   }

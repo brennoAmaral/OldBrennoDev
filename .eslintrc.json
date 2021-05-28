@@ -4,6 +4,7 @@
         "es2021": true
     },
     "extends": [
+        "eslint:recommended",
         "plugin:react/recommended",
         "google"
     ],
@@ -21,4 +22,5 @@
         "require-jsdoc": "off",
         "object-curly-spacing": "off" 
       }
+
 }

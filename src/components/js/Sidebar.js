@@ -21,7 +21,7 @@ import '../css/Sidebar.css';
 
 export default function SideBar(props) {
   const { onClose, open } = props;
-  const [anchor, setAnchor] = useState('rigth');
+  const [anchor, setAnchor] = useState('right');
   const [variant, setVariant] = useState('temporary');
 
   useEffect(() => {
@@ -45,7 +45,7 @@ export default function SideBar(props) {
     <Drawer anchor={anchor}
       variant={variant} open={open} onClose={() => {
         onClose(false);
-      }} className="colorGrayPrimary widthDrawer">
+      }} className="colorGrayPrimary widthDrawer ">
 
       <List component="nav" aria-label="main mailbox folders" >
         <ListItem button>

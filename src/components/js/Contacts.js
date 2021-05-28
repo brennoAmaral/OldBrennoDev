@@ -25,7 +25,7 @@ export default function Contatcs() {
       <CardContent>
 
         <Grid container>
-          <Grid item xs="12" sm="6" md="6" lg="6" xl="6" >
+          <Grid item xs={12} sm={6} md={6} lg={6} xl={6} >
 
             <List
               component="nav"
@@ -56,7 +56,7 @@ export default function Contatcs() {
                 </Typography>
               </ListItem>
 
-              <ListItem className="paddingZero" button onClink={() => openLink('mailto://brenno.amaral.marques@gmail.com', '_blank')}>
+              <ListItem className="paddingZero" button onClick={() => openLink('https://mailto://brenno.amaral.marques@gmail.com', '_blank')}>
                 <img src={Gmail} className="iconWH" />
                 <Typography variant='subtitle1'
                   className="fontText colorGreen ">
@@ -64,7 +64,7 @@ export default function Contatcs() {
                 </Typography>
               </ListItem>
 
-              <ListItem className="paddingZero" button onClink={() => openLink('https://wa.me/5511992698039', '_blank')}>
+              <ListItem className="paddingZero" button onClick={() => openLink('https://t.me/BrennoDev', '_blank')}>
                 <img src={Telegram} className="iconWH" />
                 <Typography variant='subtitle1'
                   className="fontText colorGreen ">
@@ -72,7 +72,7 @@ export default function Contatcs() {
                 </Typography>
               </ListItem>
 
-              <ListItem className="paddingZero" button onClink={() => openLink('https://t.me/BrennoDev', '_blank')}>
+              <ListItem className="paddingZero" button onClick={() => openLink('https://wa.me/11992698039', '_blank')}>
                 <img src={WhatsApp} className="iconWH" />
                 <Typography variant='subtitle1'
                   className="fontText colorGreen ">
@@ -82,7 +82,7 @@ export default function Contatcs() {
             </List>
           </Grid>
 
-          <Grid item xs="12" sm="6" md="6" lg="6" xl="6">
+          <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
 
             <List
               component="nav"

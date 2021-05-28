@@ -20,11 +20,11 @@ export default function BasicInfo() {
         Brenno Amaral Marques Oliveira
       </Typography>
 
-      <Typography variant='subtitle1' className="
+      <Typography variant='h6' className="
       fontOcupation
       colorGreen
       textCenter">
-        Desenvolvedor de Software &amp; Tecnico de TI
+        Desenvolvedor de Software &amp; Técnico de TI
       </Typography>
 
     </Box>

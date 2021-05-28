@@ -15,9 +15,11 @@ function callBack(cb) {
 
 export function on(cb = () => { }) {
   window.addEventListener('resize', () => callBack(cb));
+  callBack(cb);
 }
+
 export function off(cb = () => { }) {
   window.removeEventListener('resize', () => callBack(cb));
-};
+}
 
 export default on;

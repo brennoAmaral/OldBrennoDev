@@ -48,4 +48,10 @@
   .MuiSvgIcon-root{
     color:var(--color-green);
   }
+  .widthDrawer div.MuiListItem-gutters {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
+  }
 }
