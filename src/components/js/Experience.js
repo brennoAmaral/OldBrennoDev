@@ -24,9 +24,9 @@ export default function Experience() {
         </Typography>
 
 
-        <Grid container>
-          <Grid>
-            <Card className="cardWH">
+        <Grid container className="jcCenter">
+          <Grid >
+            <Card className="cardWH ">
               <CardActionArea href="https://www.base1it.com/">
                 <CardMedia
                   className='b1ImgWH'
@@ -36,10 +36,10 @@ export default function Experience() {
                   image={Base1}
                   title="Contemplative Reptile"
                 />
-                <CardContent>
+                <CardContent className="bgGraySecundary">
                   <Typography
                     variant='subtitle1'
-                    className="fontText colorGrayPrimary"
+                    className="fontText colorWhite"
                     component="p">
                     Base1 06/2019 - 05/2021
                   </Typography>
@@ -49,7 +49,7 @@ export default function Experience() {
                 paragraph
                 fontText
                 jcText
-                colorGrayPrimary
+                colorWhite
                 paragraph"
                     component="p">
                     Atuei como Analista de suporte técnico  para Base1

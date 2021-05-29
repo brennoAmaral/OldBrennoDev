@@ -1,9 +1,43 @@
   .topDistancePhoto{
     padding-top: 170px;
   }
-  .cape{
-    background-image: url(../img/cape.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:100% ;
+  @media (max-width: 600px){
+    .cape{
+      background-image: url(../img/cape.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:100% ;
+    }
+  }
+  @media (min-width: 601px) and (max-width:960px){
+    .cape{
+      background-image: url(../img/capeTablet.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:100% ;
+    }
+  }
+  @media (min-width: 961px) and (max-width:1020px){
+    .cape{
+      background-image: url(../img/capeDesktop.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:100% ;
+    }
+  }
+  @media (min-width: 1021px) and (max-width:1980px){
+    .cape{
+      background-image: url(../img/capeUltraWide.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:100% ;
+    }
+  }
+  @media (min-width: 1981px){
+    .cape{
+      background-image: url(../img/capeDesktop.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:100% ;
+    }
   }

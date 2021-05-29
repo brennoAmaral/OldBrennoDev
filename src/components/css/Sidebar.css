@@ -1,6 +1,6 @@
 
 
-@media (max-width: 960px) { 
+@media (max-width: 959px) { 
   .MuiDrawer-paperAnchorRight {
     background: var(--color-sidebar-gray)!important;
   }
@@ -31,7 +31,7 @@
     width: 100%;
   }
 }
-@media (min-width: 961px) { 
+@media (min-width: 960px) { 
   .widthDrawer  .MuiDrawer-paperAnchorLeft{
     width: var(--width-drawer);
   }

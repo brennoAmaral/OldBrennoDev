@@ -15,7 +15,7 @@ export function Card2() {
           Material UI
         </Typography>
       </Box>
-      <Box className='muiPadTop'>
+      <Box className=''>
         <img src={MuiLogo} className='muiWH' />
       </Box>
     </Box>

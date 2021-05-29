@@ -4,8 +4,7 @@
 }
 .cardWH{
   width: 340px;
-  margin-right: auto;
-  margin-left: auto;
+  background-color: var(--color-primary-gray)!important;
 }
 @media (max-width: 768px) { 
     

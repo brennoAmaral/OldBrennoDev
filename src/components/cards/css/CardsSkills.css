@@ -14,7 +14,7 @@ div.cardStyle{
   margin-left: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
 
   .cardStyle{
     width: 300px;
@@ -65,55 +65,52 @@ div.cardStyle{
 }
 
 
-@media (min-width: 601px) and (max-width:960px)  {
+@media (min-width: 600px) and (max-width:959px)  {
   .cardStyle{
-    width: 250px;
+    width: 230px;
     height: 315px;
     background-color: var(--color-primary-gray) ;
     text-align: center;
     border-radius: 5%;
   }
   .muiWH{
-    width: 220px !important;
-    height: 180px !important;
+    width: 210px !important;
+    padding-top: 40px;
   }
   .figmaWH{
-    width: 240px!important;
-   height: 240px !important;
+    padding-top: 20px;
+    width: 210px!important;
   }
   
 .reactWH{
-  width: 225px !important;
-  height: 260px !important;
+  padding-top: 10px;
+  width: 200px !important;
 }
 
-.muiPadTop{
-   padding-top: 25px;
-}
 .jsWH{
-    width: 240px!important;
-    height: 266px !important;
+    padding-top: 10px;
+    width: 215px!important;
 
 }
 .cssWH{
-  width: 230px!important;
-  height: 264px !important;
+  padding-top: 10px;
+  width: 210px!important;
 
 }
 .htmlWH{
-  width: 240px!important;
-  height: 265px !important;
+  padding-top: 10px;
+  width: 218px!important;
 
 }
 .nodeWH{
-  width: 230px !important;
-  height: 260px !important;
+  padding-top: 10px;
+  width: 210px !important;
 }
 
 }
-@media (min-width: 961px) and (max-width:1280px)  {
+@media (min-width: 960px) and (max-width:1280px)  {
   .cardStyle{
-    width: 210px;
+    width: 200px;
     height: 280px;
     background-color: var(--color-primary-gray);
     text-align: center;
@@ -126,7 +123,7 @@ div.cardStyle{
   }
   .figmaWH{
     padding-top: 10px;
-    height: 200px!important;
+    height: 190px!important;
   }
   .reactWH{
     height: 210px !important;

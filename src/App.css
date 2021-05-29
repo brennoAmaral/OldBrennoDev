@@ -8,7 +8,7 @@
     --font-secundary: 'roboto', monospace;
     --size-avatar:200px;
     --swiper-theme-color: #62E093 !important;
-    --width-drawer: 17rem;
+    --width-drawer: 19rem;
 }
 html{
   scroll-behavior: smooth;
@@ -41,6 +41,9 @@ html{
   text-decoration: none;
 }
 
+.colorWhite{
+  color:#ffff!important;
+}
 .colorGreen{
     color: var(--color-green)!important;
 }
@@ -89,13 +92,55 @@ html{
   width: var(--size-avatar)!important ;
   height: var(--size-avatar)!important ;
 }
+
+.MuiTypography-h4 {
+  font-size: 2.3rem !important;
+  font-family: var(--font-primary) !important;
+  font-weight: 800 !important;
+  line-height: 1.235 !important;
+  letter-spacing: 0.00735em !important;
+}
+.MuiTypography-h5 {
+  font-size: 2rem !important;
+  font-family: var(--font-primary) !important;
+  font-weight: 800 !important;
+  line-height: 1.235 !important;
+  letter-spacing: 0.00735em !important;
+}
+
+.MuiTypography-h6 {
+  font-size: 1.1rem !important;
+  font-family: var(--font-primary) !important;
+  font-weight: 800 !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.00735em !important;
+}
+.MuiTypography-subtitle1 {
+  font-size: 1.4rem!important;
+  font-family: var(--font-secundary);
+  font-weight: 400!important;
+  line-height: 1.75!important;
+  letter-spacing: 0.00938em!important;
+  
+}
 @media (min-width: 0px) and (max-width: 600px){
   .fontTopic{
     font-family: var(--font-primary) !important;
     font-weight: 700 !important;
-    font-size: 12;
   }
   
+  .fontText{
+  font-family: var(--font-secundary) !important;
+  font-weight: 700 !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 960px){
+  .fontNav
+  .fontTopic{
+    font-family: var(--font-primary) !important;
+    font-weight: 700 !important;
+  }
   .fontText{
   font-family: var(--font-secundary) !important;
   font-weight: 700 !important;
