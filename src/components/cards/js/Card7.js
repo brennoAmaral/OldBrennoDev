@@ -11,7 +11,7 @@ export function Card7() {
   return (
     <Box className='cardStyle'>
       <Box>
-        <Typography variant='h5'
+        <Typography variant='h3'
           className='titleDistance
           fontTopic
           colorGreen'>
@@ -19,7 +19,9 @@ export function Card7() {
         </Typography>
       </Box>
       <Box>
-        <img src={CssLogo} className='cssWH' />
+        <img src={CssLogo} className='cssWH'
+          alt='o logo do CSS3 é um trapézio isoceles com
+           CSS escrito em branco dentro dele'/>
       </Box>
     </Box>
   );

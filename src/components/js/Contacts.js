@@ -21,7 +21,7 @@ import '../css/Contacts.css';
 
 export default function Contatcs() {
   return (
-    <Card className="bgGrayPrimary borderNone" id="idContacs">
+    <Card className="bgGrayPrimary borderNone" id="Contacs">
       <CardContent>
 
         <Grid container>
@@ -29,52 +29,58 @@ export default function Contatcs() {
 
             <List
               component="nav"
-              aria-labelledby="nested-list-subheader"
               subheader={
-                <ListSubheader component="div" id="nested-list-subheader">
+                <ListSubheader component="div" id="contacts">
                   <Typography
                     className="fontTopic colorGreen"
-                    variant="h4">
+                    variant="h2">
                     Contatos
                   </Typography>
                 </ListSubheader>
               }
             >
               <ListItem className="paddingZero" button onClick={() => openLink('https://www.linkedin.com/in/brenno-a-9822a3120/', '_blank')}>
-                <img src={Linkedin} className="iconWH" />
-                <Typography variant='subtitle1'
+                <img src={Linkedin} className="iconWH"
+                  alt='um quadrado azul com um ln escrito em
+                   brando dentro dele'/>
+                <Typography variant='body1'
                   className="fontText colorGreen ">
                   Linkedin
                 </Typography>
               </ListItem>
 
               <ListItem className="paddingZero" button onClick={() => openLink('https://github.com/brennoAmaral', '_blank')}>
-                <img src={GitHub} className="iconWH" />
-                <Typography variant='subtitle1'
+                <img src={GitHub} className="iconWH"
+                  alt='um circulo com um gato desenhado dentro dele'/>
+                <Typography variant='body1'
                   className="fontText colorGreen ">
                   GitHub
                 </Typography>
               </ListItem>
 
               <ListItem className="paddingZero" button onClick={() => openLink('https://mailto://brenno.amaral.marques@gmail.com', '_blank')}>
-                <img src={Gmail} className="iconWH" />
-                <Typography variant='subtitle1'
+                <img src={Gmail} className="iconWH"
+                  alt='um M nas cores zaul, vermelho, amarelo e verde'/>
+                <Typography variant='body1'
                   className="fontText colorGreen ">
                   Gmail
                 </Typography>
               </ListItem>
 
               <ListItem className="paddingZero" button onClick={() => openLink('https://t.me/BrennoDev', '_blank')}>
-                <img src={Telegram} className="iconWH" />
-                <Typography variant='subtitle1'
+                <img src={Telegram} className="iconWH"
+                  alt='um círculo azul com um avião de papel dentro dele'/>
+                <Typography variant='body1'
                   className="fontText colorGreen ">
                   Telegram
                 </Typography>
               </ListItem>
 
               <ListItem className="paddingZero" button onClick={() => openLink('https://wa.me/11992698039', '_blank')}>
-                <img src={WhatsApp} className="iconWH" />
-                <Typography variant='subtitle1'
+                <img src={WhatsApp} className="iconWH"
+                  alt='um balão de fala em verde com um
+                  telefone desenhado dentro do balão'/>
+                <Typography variant='body1'
                   className="fontText colorGreen ">
                   WhatsApp
                 </Typography>
@@ -86,21 +92,22 @@ export default function Contatcs() {
 
             <List
               component="nav"
-              aria-labelledby="nested-list-subheader"
               subheader={
-                <ListSubheader component="div" id="nested-list-subheader">
+                <ListSubheader component="div" id="freelas">
                   <Typography
                     className="fontTopic colorGreen "
-                    variant="h4">
+                    variant="h2">
                     Freelas
                   </Typography>
                 </ListSubheader>
               }>
 
               <ListItem className="paddingZero"
-                button onClick={() => openLink('', '_blank')}>
-                <img src={Freelas99} className="iconWH" />
-                <Typography variant='subtitle1'
+                button onClick={() => openLink('https://www.99freelas.com.br/dashboard', '_blank')}>
+                <img src={Freelas99} className="iconWH"
+                  alt='um circulo em verde com uma dois e desenhado
+                   dentro dele, sendo o ultimo e desenhado ao contrário'/>
+                <Typography variant='body1'
                   className="fontText colorGreen paddingZero">
                   99Freelas
                 </Typography>
@@ -108,8 +115,9 @@ export default function Contatcs() {
 
               <ListItem className="paddingZero"
                 button onClick={() => openLink('', '_blank')}>
-                <img src={Workana} className="iconWH" />
-                <Typography variant='subtitle1'
+                <img src={Workana} className="iconWH"
+                  alt='um O composto com todas as cores'/>
+                <Typography variant='body1'
                   className="fontText colorGreen paddingZero">
                   Workana
                 </Typography>

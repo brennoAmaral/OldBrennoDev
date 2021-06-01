@@ -1,15 +1,13 @@
 
 
-@media (max-width: 959px) { 
+@media (max-width: 960px) { 
   .MuiDrawer-paperAnchorRight {
     background: var(--color-sidebar-gray)!important;
   }
   .MuiTypography-body1 {
     color: var(--color-green);
   }
-  .MuiListItem-gutters h5 .buttonSideBar{
-    padding-left: 16px;
-    padding-right: 16px;
+  .buttonSideBar{
     padding-bottom: 16px!important;
     padding-top: 16px!important;
   }
@@ -31,7 +29,7 @@
     width: 100%;
   }
 }
-@media (min-width: 960px) { 
+@media (min-width: 961px) { 
   .widthDrawer  .MuiDrawer-paperAnchorLeft{
     width: var(--width-drawer);
   }

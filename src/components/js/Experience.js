@@ -12,10 +12,10 @@ import '../css/Experience.css';
 
 export default function Experience() {
   return (
-    <Card className="borderNone bgGrayPrimary" id='idExperience'>
+    <Card className="borderNone bgGrayPrimary" id='Experience'>
       <CardContent>
         <Typography
-          variant='h4'
+          variant='h2'
           className="
             fontTopic
             colorGreen
@@ -38,20 +38,20 @@ export default function Experience() {
                 />
                 <CardContent className="bgGraySecundary">
                   <Typography
-                    variant='subtitle1'
+                    variant='body1'
                     className="fontText colorWhite"
                     component="p">
                     Base1 06/2019 - 05/2021
                   </Typography>
                   <Typography
-                    variant='subtitle1'
+                    variant='body1'
+                    component='p'
                     className="
                 paragraph
                 fontText
                 jcText
                 colorWhite
-                paragraph"
-                    component="p">
+                paragraph">
                     Atuei como Analista de suporte técnico  para Base1
                     utilizando a ferramenta NetBackup para realizar
                     monitoração e gestão de backups.

@@ -6,7 +6,9 @@ import '../css/CardsCert.css';
 export function CardCert1() {
   return (
     <Box>
-      <img src={DiplomaITB} className="paddingTopImgQualificacao certSize" />
+      <img src={DiplomaITB} className="paddingTopImgQualificacao certSize"
+        alt="diploma de conclusão do curso Suporte e manuntenção para
+          informática na intituição ITB(instituto técnico de barueri"/>
     </Box>
   );
 }

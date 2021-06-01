@@ -11,7 +11,7 @@ export function Card6() {
   return (
     <Box className='cardStyle'>
       <Box>
-        <Typography variant='h5'
+        <Typography variant='h3'
           className='titleDistance
           fontTopic
           colorGreen'>
@@ -19,7 +19,9 @@ export function Card6() {
         </Typography>
       </Box>
       <Box>
-        <img src={HtmlLogo} className='htmlWH' />
+        <img src={HtmlLogo} className='htmlWH'
+          alt='o logo do HTML5 é um laranja isóceles amarelo
+           com um numero 5 em branco escrito dentro'/>
       </Box>
     </Box>
   );

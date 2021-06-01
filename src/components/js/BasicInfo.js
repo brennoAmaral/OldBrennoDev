@@ -12,15 +12,7 @@ export default function BasicInfo() {
       className="radiusNone
       paddingTopDistance"
     >
-
-      <Typography variant='h6' className="
-      fontName
-      colorGreen
-      textCenter">
-        Brenno Amaral Marques Oliveira
-      </Typography>
-
-      <Typography variant='h6' className="
+      <Typography variant='body2' className="
       fontOcupation
       colorGreen
       textCenter">

@@ -1,6 +1,7 @@
 :root{
     --color-white:#ffff;
     --color-green:#62E093;
+    --color-dark-green: #429e66;
     --color-primary-gray:#212121;
     --color-sidebar-gray:#3c3c3c;
     --color-footer-gray:#141414;
@@ -17,7 +18,11 @@ html{
     margin: 0;
     padding: 0;    
 }
-
+p{
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
 .bgWhite{
   background-color: var(--color-white);
 }
@@ -40,7 +45,9 @@ html{
 .decorationNone{
   text-decoration: none;
 }
-
+.colorDarkGreen{
+  color:#429e66;
+}
 .colorWhite{
   color:#ffff!important;
 }
@@ -67,8 +74,8 @@ html{
 .jcText{
   text-align: justify;
 }
-.distance{
-  padding-bottom: 30px;
+.paddingAll{
+  padding: 20px;
 }
 .borderNone{
     border-radius: 0 !important;
@@ -92,100 +99,63 @@ html{
   width: var(--size-avatar)!important ;
   height: var(--size-avatar)!important ;
 }
-
-.MuiTypography-h4 {
-  font-size: 2.3rem !important;
+.MuiTypography-h2 {
+  font-size: 2.5rem !important;
   font-family: var(--font-primary) !important;
   font-weight: 800 !important;
   line-height: 1.235 !important;
   letter-spacing: 0.00735em !important;
 }
-.MuiTypography-h5 {
+
+.MuiTypography-h3 {
   font-size: 2rem !important;
   font-family: var(--font-primary) !important;
   font-weight: 800 !important;
   line-height: 1.235 !important;
   letter-spacing: 0.00735em !important;
 }
-
-.MuiTypography-h6 {
-  font-size: 1.1rem !important;
+.MuiTypography-body1 {
+  font-size: 1.5rem !important;
   font-family: var(--font-primary) !important;
   font-weight: 800 !important;
   line-height: 1.5 !important;
   letter-spacing: 0.00735em !important;
 }
-.MuiTypography-subtitle1 {
-  font-size: 1.4rem!important;
-  font-family: var(--font-secundary);
-  font-weight: 400!important;
-  line-height: 1.75!important;
-  letter-spacing: 0.00938em!important;
-  
+.MuiTypography-body2 {
+  font-size: 1.3rem !important;
+  font-family: var(--font-secundary)!important;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
+.fontTopic{
+  font-family: var(--font-primary) !important;
+  font-weight: 700 !important;
+}
+
+.fontText{
+  font-family: var(--font-secundary) !important;
+  font-weight: 200 !important;
 }
 @media (min-width: 0px) and (max-width: 600px){
-  .fontTopic{
-    font-family: var(--font-primary) !important;
-    font-weight: 700 !important;
-  }
   
-  .fontText{
-  font-family: var(--font-secundary) !important;
-  font-weight: 700 !important;
-  }
 }
 
 @media (min-width: 601px) and (max-width: 960px){
-  .fontNav
-  .fontTopic{
-    font-family: var(--font-primary) !important;
-    font-weight: 700 !important;
-  }
-  .fontText{
-  font-family: var(--font-secundary) !important;
-  font-weight: 700 !important;
-  }
+  
 }
 @media (min-width: 961px) and (max-width: 1080px){
-  
-  .fontTopic{
-    font-family: var(--font-primary) !important;
-    font-weight: 700 !important;
-  }
-
-  .fontText{
-    font-family: var(--font-secundary) !important;
-    font-weight: 700 !important;
-  }
   .marginDrawer{
     margin-left: var(--width-drawer);
   }
 }
 @media (min-width: 1081px) and (max-width: 1920px) {
-  
-  .fontTopic{
-    font-family: var(--font-primary) !important;
-    font-weight: 700 !important;
-  }
-  .fontText{
-    font-family: var(--font-secundary) !important;
-    font-weight: 700 !important;
-  }
   .marginDrawer{
     margin-left: var(--width-drawer);
   }
 }
 @media (min-width: 1921px) {
-  
-  .fontTopic{
-    font-family: var(--font-primary) !important;
-    font-weight: 700 !important;
-    font-size: 12pt!important;
-  }
-  .fontText{
-    font-family: var(--font-secundary) !important;
-    font-weight: 700 !important;
-  }
   .marginDrawer{
     margin-left: var(--width-drawer);
   }

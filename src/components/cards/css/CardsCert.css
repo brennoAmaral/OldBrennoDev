@@ -9,7 +9,8 @@
 
 @media (max-width: 600px) {
   .certSize{
-    width: 400px!important;
+    height: 250px!important;
+    width: 350px!important;
   }
   .slide2None{
     display: none;
@@ -29,6 +30,7 @@
     display: none;
   }
   .certSize{
+    height: 210px!important;
     width: 280px!important;
   }
   
@@ -41,7 +43,8 @@
 }
 @media (min-width: 961px) {
    .certSize{
-     width: 300px;
+      height: 250px;
+      width: 350px;
    }
   .slide1None{
     display: none;

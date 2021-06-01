@@ -8,7 +8,7 @@ export function Card5() {
   return (
     <Box className='cardStyle'>
       <Box>
-        <Typography variant='h5'
+        <Typography variant='h3'
           className='titleDistance
           fontTopic
           colorGreen'>
@@ -16,7 +16,9 @@ export function Card5() {
         </Typography>
       </Box>
       <Box>
-        <img src={JsLogo} className='jsWH' />
+        <img src={JsLogo} className='jsWH'
+          alt='o logo da linguagem de programação javascript é as siglas JS
+           dentro de um trapézio isóceles amarelo' />
       </Box>
     </Box>
   );

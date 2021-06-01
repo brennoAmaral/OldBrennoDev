@@ -7,7 +7,7 @@ export function Card1() {
   return (
     <Box className='cardStyle'>
       <Box>
-        <Typography variant='h5'
+        <Typography variant='h3'
           className='titleDistance
           fontTopic
           colorGreen'>
@@ -15,7 +15,9 @@ export function Card1() {
         </Typography>
       </Box>
       <Box>
-        <img src={ReactLogo} className='reactWH' />
+        <img src={ReactLogo} className='reactWH'
+          alt='o logo que representa o framework react é um
+           hexagono com um atomo dentro'/>
       </Box>
     </Box>
   );

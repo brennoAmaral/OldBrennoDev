@@ -6,10 +6,10 @@ import CarouselQualificacoes from './CarouselQualificacoes';
 export default function Qualificacoes() {
   return (
 
-    <Card className="borderNone textCenter " id='idQualificacoes'>
+    <Card className="borderNone textCenter " id='Qualificacoes'>
       <CardContent>
-        <Typography variant='h4'
-          className="fontTopic colorGreen distance">
+        <Typography variant='h2'
+          className="fontTopic colorDarkGreen distance">
           Qualificações
         </Typography>
         <CarouselQualificacoes/>

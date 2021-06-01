@@ -8,7 +8,7 @@ export function Card2() {
   return (
     <Box className='cardStyle'>
       <Box>
-        <Typography variant='h5'
+        <Typography variant='h3'
           className='titleDistance
           fontTopic
           colorGreen'>
@@ -16,7 +16,9 @@ export function Card2() {
         </Typography>
       </Box>
       <Box className=''>
-        <img src={MuiLogo} className='muiWH' />
+        <img src={MuiLogo} className='muiWH'
+          alt='o logo que representa o framework Material UI é um M azul
+           com uma letra U desenhado a partir da perna direita do M'/>
       </Box>
     </Box>
   );

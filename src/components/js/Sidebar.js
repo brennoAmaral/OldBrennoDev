@@ -53,7 +53,7 @@ export default function SideBar(props) {
             <PersonIcon style={{ fontSize: 30 }} />
           </ListItemIcon>
 
-          <Link href='#idaBoutMe' onClick={() => onClose(false)}>
+          <Link href='#' onClick={() => onClose(false)}>
             <ListItemText>
               <Typography variant='h5'
                 className="colorGreen fontTopic buttonSideBar">
@@ -68,7 +68,7 @@ export default function SideBar(props) {
             <DeveloperModeIcon style={{ fontSize: 30 }} />
           </ListItemIcon>
 
-          <Link href='#idDevSkills' onClick={() => onClose(false)}>
+          <Link href='#DevSkills' onClick={() => onClose(false)}>
             <ListItemText>
               <Typography variant='h5'
                 className="colorGreen fontTopic buttonSideBar">
@@ -85,7 +85,7 @@ export default function SideBar(props) {
             <BusinessCenterIcon style={{ fontSize: 30 }} />
           </ListItemIcon>
 
-          <Link href='#idServices' onClick={() => onClose(false)}>
+          <Link href='#Services' onClick={() => onClose(false)}>
             <ListItemText>
               <Typography variant='h5'
                 className="colorGreen fontTopic buttonSideBar">
@@ -99,7 +99,7 @@ export default function SideBar(props) {
           <ListItemIcon>
             <TimelineIcon style={{ fontSize: 30 }} />
           </ListItemIcon>
-          <Link href='#idExperience' onClick={() => onClose(false)}>
+          <Link href='#Experience' onClick={() => onClose(false)}>
             <ListItemText>
               <Typography variant='h5'
                 className="colorGreen fontTopic buttonSideBar">
@@ -113,7 +113,7 @@ export default function SideBar(props) {
           <ListItemIcon >
             <VerifiedUserIcon style={{ fontSize: 30 }} />
           </ListItemIcon>
-          <Link href='#idQualificacoes' onClick={() => onClose(false)}>
+          <Link href='#Qualificacoes' onClick={() => onClose(false)}>
             <ListItemText>
               <Typography variant='h5'
                 className="colorGreen fontTopic buttonSideBar">
@@ -127,7 +127,7 @@ export default function SideBar(props) {
           <ListItemIcon>
             <PermPhoneMsgIcon style={{ fontSize: 30 }} />
           </ListItemIcon>
-          <Link href='#idContacs' onClick={() => onClose(false)}>
+          <Link href='#Contacs' onClick={() => onClose(false)}>
             <ListItemText>
               <Typography variant='h5'
                 className="colorGreen fontTopic buttonSideBar">

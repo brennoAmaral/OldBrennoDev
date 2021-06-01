@@ -11,7 +11,7 @@ export function Card3() {
   return (
     <Box className='cardStyle'>
       <Box>
-        <Typography variant='h5'
+        <Typography variant='h3'
           className='titleDistance
           fontTopic
           colorGreen'>
@@ -19,7 +19,9 @@ export function Card3() {
         </Typography>
       </Box>
       <Box>
-        <img src={NodeLogo} className='nodeWH' />
+        <img src={NodeLogo} className='nodeWH'
+          alt='O logo do Node.js é o nome da ténologia
+           escrito dentro de um exagono verde'/>
       </Box>
     </Box>
   );
