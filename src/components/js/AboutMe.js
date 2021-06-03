@@ -25,7 +25,7 @@ export default function AboutMe() {
             jcText
             colorGrayPrimary
             paragraph">
-          Es&shy;tu&shy;dan&shy;te de Ti co&shy;me&shy;çan&shy;do
+          Es&shy;tu&shy;dan&shy;te de TI co&shy;me&shy;çan&shy;do
           car&shy;re&shy;ira de de&shy;sen&shy;vol&shy;vi&shy;men&shy;to
           de soft&shy;ware. Cur&shy;sei téc&shy;ni&shy;co de
           su&shy;por&shy;te e ma&shy;nu&shy;ten&shy;ção
