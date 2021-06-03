@@ -122,7 +122,7 @@ p{
   letter-spacing: 0.00735em !important;
 }
 .MuiTypography-body2 {
-  font-size: 1.3rem !important;
+  font-size: 1rem !important;
   font-family: var(--font-secundary)!important;
   font-weight: 400;
   line-height: 1.43;

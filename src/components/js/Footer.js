@@ -10,17 +10,17 @@ export default function Footer() {
       <Card className='bgGrayTertiary borderNone'>
         <CardContent>
           <Grid container>
-            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
-              <Box>
-                <Typography variant='body2' className='colorGreen fontText'>
-                  Brenno.(Dev);&copy;
-                </Typography>
-              </Box>
-            </Grid>
-            <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+            <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
               <Box>
                 <Typography variant='body2' className='colorGreen fontText'>
                   CNPJ: 42.156.903/0001-06
+                </Typography>
+              </Box>
+            </Grid>
+            <Grid item xs={12} sm={6} md={6} lg={6} xl={6}>
+              <Box>
+                <Typography variant='body2' className='colorGreen fontText'>
+                  Brenno.(Dev);&copy;
                 </Typography>
               </Box>
             </Grid>
