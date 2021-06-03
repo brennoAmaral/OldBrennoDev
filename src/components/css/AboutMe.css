@@ -2,3 +2,23 @@
 .distanceAboutMe{
   padding: 0px 0px 30px 0px!important;
 }
+@media (min-width: 961px) and (max-width: 1020px){
+  .aboutMeMargin{
+    margin:0 30px!important;
+  }
+}
+@media (min-width: 1021px) and (max-width: 1680px){
+  .aboutMeMargin{
+    margin:0 30px!important;
+  } 
+}
+@media (min-width: 1681px) and (max-width: 1920px){
+  .aboutMeMargin{
+    margin:0 60px!important;
+  }
+}
+@media (min-width: 1921px){
+  .aboutMeMargin{
+    margin:0 60px!important;
+  }
+}

@@ -58,7 +58,7 @@ export default function Contatcs() {
                 </Typography>
               </ListItem>
 
-              <ListItem className="paddingZero" button onClick={() => openLink('https://mailto://brenno.amaral.marques@gmail.com', '_blank')}>
+              <ListItem className="paddingZero" button onClick={() => openLink('mailto://brenno.amaral.marques@gmail.com', '_blank')}>
                 <img src={Gmail} className="iconWH"
                   alt='um M nas cores zaul, vermelho, amarelo e verde'/>
                 <Typography variant='body1'

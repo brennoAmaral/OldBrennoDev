@@ -149,14 +149,23 @@ p{
   .marginDrawer{
     margin-left: var(--width-drawer);
   }
+  .appBarNone{
+    display: none!important;
+  }
 }
 @media (min-width: 1081px) and (max-width: 1920px) {
   .marginDrawer{
     margin-left: var(--width-drawer);
   }
+  .appBarNone{
+    display: none!important;
+  }
 }
 @media (min-width: 1921px) {
   .marginDrawer{
     margin-left: var(--width-drawer);
+  }
+  .appBarNone{
+    display: none!important;
   }
 }
